@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Leina: </value>
+  </data>
+  <data name="Parent.Text" xml:space="preserve">
+    <value>Motswadi: </value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Sehlogo: </value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>Dipeakanyo</value>
+  </data>
+  <data name="SiteRoot" xml:space="preserve">
+    <value>Site Root</value>
+  </data>
+  <data name="AtBeginning" xml:space="preserve">
+    <value>Mathomong</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Pele</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Ka morago</value>
+  </data>
+  <data name="AtEnd" xml:space="preserve">
+    <value>Mafelelong</value>
+  </data>
+  <data name="Page.Select" xml:space="preserve">
+    <value>Kgetha letlakala</value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>Kgetha Container</value>
+  </data>
+  <data name="Error.Page.Load" xml:space="preserve">
+    <value>Error Loading Page</value>
+  </data>
+  <data name="Error.ChildPage.Load" xml:space="preserve">
+    <value>Error Loading Child Pages For Parent</value>
+  </data>
+  <data name="Error.Pane.Load" xml:space="preserve">
+    <value>Error Loading Pane Layouts For Theme</value>
+  </data>
+  <data name="Message.Page.Exists" xml:space="preserve">
+    <value>A page with path '{0}' already exists for this site. Page paths must be unique. You may need to check if a page with this path exists in the Recycle Bin.</value>
+  </data>
+  <data name="Message.Required.PageInfo" xml:space="preserve">
+    <value>O swanetše go fana ka leina la letlakala, hlogo le sebjana</value>
+  </data>
+  <data name="Error.Page.Save" xml:space="preserve">
+    <value>Error Saving Page</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>Tsenya leina la letlakala</value>
+  </data>
+  <data name="Parent.HelpText" xml:space="preserve">
+    <value>Kgetha motswadi wa letlakala leo le lego ka gare ga letlakala la gago</value>
+  </data>
+  <data name="Insert.HelpText" xml:space="preserve">
+    <value>Kgetha lefelo leo o nyakago gore letlakala le tsenywe go lona mabapi le matlakala a mangwe</value>
+  </data>
+  <data name="Navigation.HelpText" xml:space="preserve">
+    <value>Kgetha ge e le gore letlakala ke karolo ya letlakala leo le fihlilwego goba le fihlilwe</value>
+  </data>
+  <data name="UrlPath.HelpText" xml:space="preserve">
+    <value>Optionally enter a url path for this page (ie. home ). If you do not provide a url path, the page name will be used.  If the page is intended to be the root path specify '/'.</value>
+  </data>
+  <data name="Redirect.HelpText" xml:space="preserve">
+    <value>Optionally enter a url which this page should redirect to when a user navigates to it</value>
+  </data>
+  <data name="Title.HelpText" xml:space="preserve">
+    <value>Kgetha go tsenya leina la letlakala. Ge e le gore ga o na leina la letlakala, leina la letlakala le tla šomišwa.</value>
+  </data>
+  <data name="Theme.HelpText" xml:space="preserve">
+    <value>Kgetha hlogo ya letlakala le</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>Kgetha sebjana se se fošagetšego sa letlakala</value>
+  </data>
+  <data name="Icon.HelpText" xml:space="preserve">
+    <value>Kgetha leina la sehlopha sa aekhone sa letlakala le leo le tla bontšhwago mo websaeteng ya navigation</value>
+  </data>
+  <data name="Personalizable.HelpText" xml:space="preserve">
+    <value>Kgetha ge e ba o ka rata gore badiriši ba kgone go fetoša letlakala le ka diteng tša bona</value>
+  </data>
+  <data name="Insert.Text" xml:space="preserve">
+    <value>Insert: </value>
+  </data>
+  <data name="Navigation.Text" xml:space="preserve">
+    <value>Navigation? </value>
+  </data>
+  <data name="UrlPath.Text" xml:space="preserve">
+    <value>Tsela ya Url: </value>
+  </data>
+  <data name="Redirect.Text" xml:space="preserve">
+    <value>Redirect: </value>
+  </data>
+  <data name="Theme.Text" xml:space="preserve">
+    <value>Sehlogo: </value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>Default Container: </value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>Icon: </value>
+  </data>
+  <data name="Personalizable.Text" xml:space="preserve">
+    <value>Personalizable? </value>
+  </data>
+  <data name="Appearance.Name" xml:space="preserve">
+    <value>Ponagalo</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>Optionally enter content to be included in the page head (ie. meta, link, or script tags)</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>Head Content:</value>
+  </data>
+  <data name="Message.Page.Reserved" xml:space="preserve">
+    <value>Leina la letlakala {0} le bolokilwe. Ka kgopelo, ngwala leina le lengwe letlakaleng la gago.</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>Kgetha go tsenya diteng tšeo di swanetšego go akaretšwa ka gare ga mmele wa letlakala (mohlala, ditaodišosengwalo tša sengwalwa)</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>Body Content:</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>Page Content</value>
+  </data>
+  <data name="ThemeChanged.Message" xml:space="preserve">
+    <value>Please Note That Overriding The Default Site Theme With An Unrelated Page Theme May Result In Compatibility Issues For Your Site</value>
+  </data>
+  <data name="Permissions.Heading" xml:space="preserve">
+    <value>Tumelelo</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>Theme Settings</value>
+  </data>
+  <data name="EffectiveDate.HelpText" xml:space="preserve">
+    <value>Letšatšikgwedi leo letlakala le le šomago ka lona</value>
+  </data>
+  <data name="EffectiveDate.Text" xml:space="preserve">
+    <value>Letšatši la go thoma go šoma: </value>
+  </data>
+  <data name="ExpiryDate.HelpText" xml:space="preserve">
+    <value>Letšatšikgwedi leo letlakala le fedile ka lona</value>
+  </data>
+  <data name="ExpiryDate.Text" xml:space="preserve">
+    <value>Letšatši la go fela: </value>
+  </data>
+</root>

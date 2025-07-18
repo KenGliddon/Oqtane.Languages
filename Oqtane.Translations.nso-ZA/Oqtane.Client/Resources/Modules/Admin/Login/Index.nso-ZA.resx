@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Password ye e lebetšwego</value>
+  </data>
+  <data name="Success.Account.Verified" xml:space="preserve">
+    <value>Aterese ya imeile ya akhaonte ya mošomiši e netefaditšwe ka katlego. Bjale o ka šomiša leina la gago la mošomiši le phasewete.</value>
+  </data>
+  <data name="Message.Account.NotVerified" xml:space="preserve">
+    <value>Aterese ya e-mail ya mošomiši ga se ya kgonthišišwa. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="Success.Account.Linked" xml:space="preserve">
+    <value>User Account Linked Successfully. You Can Now Login With Your External Login Below.</value>
+  </data>
+  <data name="Message.Account.NotLinked" xml:space="preserve">
+    <value>External login could not be link. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="Error.Login.Fail" xml:space="preserve">
+    <value>Login Failed. Ka kgopelo gopola gore dingwalwa di na le maswanedi a magolo. Ge e le gore o lekile go saena ka makga a mmalwa ga se wa atlega, akhaonte ya gago e tla tswalelwa lebakanyana. Ela hloko gore diakhaonte tša mošomiši gantši di nyaka netefatšo ya aterese ya emeile ka fao o ka nyaka go lekola e-mail ya gago go hwetša tsebišo.</value>
+  </data>
+  <data name="Message.Required.UserInfo" xml:space="preserve">
+    <value>Ka kgopelo fana ka dikarolo ka moka tše di nyakegago</value>
+  </data>
+  <data name="Info.SignedIn" xml:space="preserve">
+    <value>Y yo le saenne</value>
+  </data>
+  <data name="Message.ForgotPassword" xml:space="preserve">
+    <value>Ka kgopelo tsenya leina la mošomiši leo le amanago le akhaonte ya gago gomme o kgethe kgetho ya phasewete yeo e lebetšwego gape</value>
+  </data>
+  <data name="Message.ForgotUser" xml:space="preserve">
+    <value>Ka kgopelo lebelela aterese ya emeile yeo e amanago le akhaonte ya gago ya mošomiši go hwetša tsebišo ya go beakanya phasewete</value>
+  </data>
+  <data name="Message.UserDoesNotExist" xml:space="preserve">
+    <value>Mošomiši ga a gona</value>
+  </data>
+  <data name="Code.HelpText" xml:space="preserve">
+    <value>Ka kgopelo tsenya khoutu ya tiišetšo yeo e bolokegilego yeo o e rometšwego go wena ka emeile.</value>
+  </data>
+  <data name="Code.Placeholder" xml:space="preserve">
+    <value>Khoutu ya Netefatšo</value>
+  </data>
+  <data name="Code.Text" xml:space="preserve">
+    <value>Khoutu ya Tiišetšo:</value>
+  </data>
+  <data name="Error.TwoFactor.Fail" xml:space="preserve">
+    <value>Netefatšo e paletšwe. Ka kgopelo netefatša gore o ngwadile khoutu ka nepagalo ka mokgwa wo o filwego ka gare ga poso ya gago. Ge o nyaka go kgopela khoutu ye mpsha ya tiišetšo, ka kgopelo kgetha kgetho ya go khansela gomme o saenele gape. </value>
+  </data>
+  <data name="Message.TwoFactor" xml:space="preserve">
+    <value>Khoutu ya tiišetšo yeo e bolokegilego e rometšwe go aterese ya gago ya emeile. Ka kgopelo tsenya khoutu yeo o e amogetšego. Ge eba ga se wa hwetša khoutu goba o lahlegetšwe ke phihlelelo ya e-mail ya gago, hle ikgokaganye le molaodi wa gago.</value>
+  </data>
+  <data name="Password.HelpText" xml:space="preserve">
+    <value>Ka kgopelo tsenya phasewete yeo e amanago le akhaonte ya gago. Elelwa gore ditaodišosengwalo tša Sepedi di na le mathata. Ge e ba o ka palelwa ke go tsena ka akhaonteng ya gago makga a mmalwa, o tla tswalelwa ka ntle lebaka le letelele.</value>
+  </data>
+  <data name="Password.Placeholder" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Remember.HelpText" xml:space="preserve">
+    <value>Hlaloša ge e le gore o ka rata go ingwadiša gape ka boitirišo nakong ye e tlago ge o etela websaete ye</value>
+  </data>
+  <data name="Remember.Text" xml:space="preserve">
+    <value>O a nkgopola?</value>
+  </data>
+  <data name="Username.HelpText" xml:space="preserve">
+    <value>Ka kgopelo ngwala leina la mošomiši leo le amanago le akhaonte ya gago</value>
+  </data>
+  <data name="Username.Placeholder" xml:space="preserve">
+    <value>Leina la mošomiši</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Leina la mošomiši:</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Tirišo</value>
+  </data>
+  <data name="Error.LoadLogin" xml:space="preserve">
+    <value>Error Loading Login</value>
+  </data>
+  <data name="Error.Login" xml:space="preserve">
+    <value>Error Performing Login</value>
+  </data>
+  <data name="Error.ResetPassword" xml:space="preserve">
+    <value>Error Resetting Password</value>
+  </data>
+  <data name="ExternalLoginStatus.DuplicateEmail" xml:space="preserve">
+    <value>Multiple User Accounts Already Exist With The Email Address Of Your External Login. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.MissingClaims" xml:space="preserve">
+    <value>Moabi wa tshedimošo ga se a fana ka tshedimošo ka moka yeo e nyakegago. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.ProviderKeyMismatch" xml:space="preserve">
+    <value>An error happened verifying your external login. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserDoesNotExist" xml:space="preserve">
+    <value>Akhaonte ya mošomiši yeo e sepelelanago le aterese ya gago ya e-mail ya go tsena ka ntle ga yona ga e gona. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserNotCreated" xml:space="preserve">
+    <value>Ga go kgonege go hlongwa akhaonte ya gago ya ka ntle ya mošomiši. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.VerificationRequired" xml:space="preserve">
+    <value>Go kgokaganya login ya gago ya ka ntle le akhaonte ya gago ya mošomiši, o swanetše go kgonthišiša boitšhupo bja gago. Ka kgopelo lebelela e-mail ya gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.AccessDenied" xml:space="preserve">
+    <value>Your External Login Was Denied Access. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.RemoteFailure" xml:space="preserve">
+    <value>Your External Login Failed. Ka kgopelo ikgokaganye le molaodi wa gago go hwetša ditaelo tše dingwe.</value>
+  </data>
+  <data name="ExternalLoginStatus.ReviewClaims" xml:space="preserve">
+    <value>The Review Claims Option Was Enabled In External Login Settings. Ka kgopelo etela rekoto ya ditiragalo go bona dikgopelo tše di bušeditšwego ke moabi.</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register as new user?</value>
+  </data>
+</root>
