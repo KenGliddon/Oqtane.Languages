@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Ukhohliwe Igama lokungena</value>
+  </data>
+  <data name="Success.Account.Verified" xml:space="preserve">
+    <value>Ikheli le-imeyili le-akhawunti yomsebenzisi liqinisekisiwe ngempumelelo. Manje usungangena ngemvume ngegama lakho lomsebenzisi nephasiwedi.</value>
+  </data>
+  <data name="Message.Account.NotVerified" xml:space="preserve">
+    <value>Ikheli le-imeyili le-akhawunti yomsebenzisi alikwazanga ukuqinisekiswa. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="Success.Account.Linked" xml:space="preserve">
+    <value>I-akhawunti yomsebenzisi ixhunywe ngempumelelo. Manje usungangena ngemvume ngemvume yakho yangaphandle ngezansi.</value>
+  </data>
+  <data name="Message.Account.NotLinked" xml:space="preserve">
+    <value>Umngenisi wangaphandle awukwazanga ukuxhunywa. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="Error.Login.Fail" xml:space="preserve">
+    <value>Ukungena ngemvume kwehlulekile. Sicela uqaphele ukuthi amaphasiwedi azwela icala. Uma uke wazama ukungena ngemvume izikhathi eziningi ungaphumeleli, i-akhawunti yakho izokhiywa ngaphandle isikhathi esithile. Qaphela ukuthi ama-akhawunti womsebenzisi avame ukudinga ukuqinisekiswa kwekheli le-imeyili ngakho-ke ungahle uthande ukuhlola i-imeyili yakho ngesaziso.</value>
+  </data>
+  <data name="Message.Required.UserInfo" xml:space="preserve">
+    <value>Sicela unikeze zonke izinkambu ezidingekayo</value>
+  </data>
+  <data name="Info.SignedIn" xml:space="preserve">
+    <value>Usuvele ungene ngemvume</value>
+  </data>
+  <data name="Message.ForgotPassword" xml:space="preserve">
+    <value>Uyacelwa ukuba ufake igama lomsebenzisi elihlobene ne-akhawunti yakho bese ukhetha inketho yegama lokungena elikhohliwe futhi</value>
+  </data>
+  <data name="Message.ForgotUser" xml:space="preserve">
+    <value>Sicela uhlole ikheli le-imeyili elihlobene ne-akhawunti yakho yomsebenzisi ukuze uthole isaziso sokusetha kabusha iphasiwedi</value>
+  </data>
+  <data name="Message.UserDoesNotExist" xml:space="preserve">
+    <value>Umsebenzisi akakho</value>
+  </data>
+  <data name="Code.HelpText" xml:space="preserve">
+    <value>Sicela ufake ikhodi yokuqinisekisa ephephile ethunyelwe kuwe nge-imeyili.</value>
+  </data>
+  <data name="Code.Placeholder" xml:space="preserve">
+    <value>Ikhodi Yokuqinisekisa</value>
+  </data>
+  <data name="Code.Text" xml:space="preserve">
+    <value>Ikhodi Yokuqinisekisa:</value>
+  </data>
+  <data name="Error.TwoFactor.Fail" xml:space="preserve">
+    <value>Ukuqinisekiswa kwehlulekile. Sicela uqinisekise ukuthi ufake ikhodi ngqo kwifomu elinikezwe ku-imeyili yakho. Uma ufisa ukucela ikhodi entsha yokuqinisekisa sicela ukhethe inketho yokukhansela bese ungena ngemvume futhi. </value>
+  </data>
+  <data name="Message.TwoFactor" xml:space="preserve">
+    <value>Ikhodi yokuqinisekisa ephephile ithunyelwe ekhelini lakho le-imeyili. Sicela ufake ikhodi oyitholile. Uma ungayitholi ikhodi noma ulahlekelwe ukufinyelela ku-imeyili yakho, sicela uxhumane nomphathi wakho.</value>
+  </data>
+  <data name="Password.HelpText" xml:space="preserve">
+    <value>Sicela ufake igama lokungena elihlobene ne-akhawunti yakho. Khumbula ukuthi amaphasiwedi azwela icala. Uma uzama ukungena ngemvume ku-akhawunti yakho izikhathi eziningi, uzokhiywa ngaphandle isikhathi esithile.</value>
+  </data>
+  <data name="Password.Placeholder" xml:space="preserve">
+    <value>Igama lokungena</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Igama lokungena:</value>
+  </data>
+  <data name="Remember.HelpText" xml:space="preserve">
+    <value>Cacisa ukuthi ungathanda ukungena ngemvume ngokuzenzakalelayo ngesikhathi esizayo uma uvakashela le ndawo</value>
+  </data>
+  <data name="Remember.Text" xml:space="preserve">
+    <value>Uyangikhumbula?</value>
+  </data>
+  <data name="Username.HelpText" xml:space="preserve">
+    <value>Sicela ufake igama lomsebenzisi elihlobene ne-akhawunti yakho</value>
+  </data>
+  <data name="Username.Placeholder" xml:space="preserve">
+    <value>Igama lomsebenzisi</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Igama lomsebenzisi:</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Sebenzisa</value>
+  </data>
+  <data name="Error.LoadLogin" xml:space="preserve">
+    <value>Iphutha ekulayisheni umngenisi</value>
+  </data>
+  <data name="Error.Login" xml:space="preserve">
+    <value>Iphutha ekwenzeni ukungena ngemvume</value>
+  </data>
+  <data name="Error.ResetPassword" xml:space="preserve">
+    <value>Iphutha ekumiseleni kabusha igama lokungena</value>
+  </data>
+  <data name="ExternalLoginStatus.DuplicateEmail" xml:space="preserve">
+    <value>Ama-akhawunti amaningi omsebenzisi asevele ekhona ngekheli le-imeyili lokungena kwakho kwangaphandle. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.MissingClaims" xml:space="preserve">
+    <value>Umhlinzeki wokungena ngemvume wangaphandle akazange anikeze lonke ulwazi oludingekayo. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.ProviderKeyMismatch" xml:space="preserve">
+    <value>Kwenzeke iphutha ekuqinisekiseni ukungena kwakho kwangaphandle. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserDoesNotExist" xml:space="preserve">
+    <value>I-akhawunti yomsebenzisi ehambisana nekheli le-imeyili lokungena ngemvume kwakho kwangaphandle ayikho. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserNotCreated" xml:space="preserve">
+    <value>I-akhawunti yomsebenzisi ayikwazanga ukwakhelwa ukungena kwakho kwangaphandle. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.VerificationRequired" xml:space="preserve">
+    <value>Ukuze uxhumanise ukungena ngemvume kwakho kwangaphandle ne-akhawunti yakho yomsebenzisi, kufanele uqinisekise ubunikazi bakho. Sicela uhlole i-imeyili yakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.AccessDenied" xml:space="preserve">
+    <value>Umngenisi wakho wangaphandle wenqatshelwe ukufinyelela. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.RemoteFailure" xml:space="preserve">
+    <value>Umngenisi wakho wangaphandle wehlulekile. Sicela uxhumane nomphathi wakho ukuze uthole eminye imiyalelo.</value>
+  </data>
+  <data name="ExternalLoginStatus.ReviewClaims" xml:space="preserve">
+    <value>Inketho Yezimangalo Zokubuyekeza inikwe amandla kuzimiso zokungena zangaphandle. Sicela uvakashele i-log yomcimbi ukuze ubone izimangalo ezibuyiselwe ngumhlinzeki.</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Bhalisa njengomsebenzisi omusha?</value>
+  </data>
+</root>
