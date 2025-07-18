@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Lebitso: </value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>Khetha Container</value>
+  </data>
+  <data name="Error.Theme.LoadPane" xml:space="preserve">
+    <value>Phoso ea ho kenya lihlopha tsa lifanese bakeng sa sehlooho</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>Setshelo se sa fetoheng: </value>
+  </data>
+  <data name="DefaultAdminContainer" xml:space="preserve">
+    <value>Default Admin Container</value>
+  </data>
+  <data name="Smtp.Required.EnableNotificationJob" xml:space="preserve">
+    <value>* Ka kopo hlokomela hore SMTP e hloka hore mosebetsi oa tsebiso o lumelloe mesebetsing e reriloeng</value>
+  </data>
+  <data name="Smtp.TestConfig" xml:space="preserve">
+    <value>Tlhahlobo ea Tlhophiso ea SMTP</value>
+  </data>
+  <data name="Success.Settings.SaveSite" xml:space="preserve">
+    <value>Litlhophiso tsa sebaka sa marang-rang li bolokiloe</value>
+  </data>
+  <data name="Message.Aliases.Taken" xml:space="preserve">
+    <value>Ho boletsoe lebitso le seng le sebelisitsoe bakeng sa sebaka se seng sa marang-rang</value>
+  </data>
+  <data name="Message.Required.SiteName" xml:space="preserve">
+    <value>U tlameha ho fana ka lebitso la sebaka sa marang-rang, alias, le sehlooho sa default / setshelo</value>
+  </data>
+  <data name="Error.SaveSite" xml:space="preserve">
+    <value>Sebaka sa ho boloka phoso</value>
+  </data>
+  <data name="Info.Smtp.SaveSettings" xml:space="preserve">
+    <value>Litlhophiso tsa SMTP li bolokiloe &apos;me molaetsa o rometsoe atereseng ea lengolo-tsoibila e amanang le ak&apos;haonte ea hau ea mosebelisi Ka kopo emela metsotso e seng mekae ho romelloa. Haeba u sa fumane lengolo-tsoibila, ka kopo sheba mosebetsi oa tsebiso mesebetsing e hlophisitsoeng bakeng sa lintlha life kapa life tsa log.</value>
+  </data>
+  <data name="Error.Smtp.TestConfig" xml:space="preserve">
+    <value>Phoso ea Tlhahlobo ea SMTP</value>
+  </data>
+  <data name="Message.Required.Smtp" xml:space="preserve">
+    <value>U tlameha ho totobatsa moamoheli oa SMTP, boema-kepe le moromelli</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>Kenya lebitso la sebaka sa hau sa marang-rang</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>Lebitso la database le sebelisitsoeng bakeng sa sebaka sa marang-rang. Hlokomela hore ena ha se lebitso la database la &apos;mele, empa ke lebitso la mohiri le sebelisoang ka har&apos;a moralo ho khetholla database.</value>
+  </data>
+  <data name="Aliases.HelpText" xml:space="preserve">
+    <value>Li-URL bakeng sa sebaka sa marang-rang. Sena se ka kenyelletsa mabitso a marang-rang (ke hore. domain.com), li-subdomains (ke hore. sub.domain.com) kapa lifoldara tse hlakileng (ke hore. domain.com/folder).</value>
+  </data>
+  <data name="IsDeleted.HelpText" xml:space="preserve">
+    <value>Na sebaka see sa marang-rang se tlositsoe?</value>
+  </data>
+  <data name="Logo.HelpText" xml:space="preserve">
+    <value>Hlalosa logo bakeng sa sebaka sa marang-rang</value>
+  </data>
+  <data name="FavoriteIcon.HelpText" xml:space="preserve">
+    <value>Hlalosa Favicon. Sebopeho sa setšoantšo se tlameha ho ba 16×16, 32×32, 48×48, kapa 64×64 ka boholo, le 8-bit, 24-bit, kapa 32-bit ka botebo ba &apos;mala. Sebopeho sa setšoantšo se tlameha ho ba ICO, PNG kapa GIF.</value>
+  </data>
+  <data name="DefaultTheme.HelpText" xml:space="preserve">
+    <value>Khetha sehlooho sa default sa libaka</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>Khetha setshelo se tloaelehileng bakeng sa sebaka sa marang-rang</value>
+  </data>
+  <data name="DefaultAdminContainer.HelpText" xml:space="preserve">
+    <value>Khetha setshelo sa admin se sa fetoheng bakeng sa sebaka sa marang-rang</value>
+  </data>
+  <data name="Host.HelpText" xml:space="preserve">
+    <value>Kenya lebitso la moamoheli oa seva sa SMTP</value>
+  </data>
+  <data name="Port.HelpText" xml:space="preserve">
+    <value>Kenya nomoro ea boema-kepe bakeng sa seva sa SMTP. Ka kopo hlokomela hore tšimo ena e hlokahala haeba u fana ka lebitso la moamoheli.</value>
+  </data>
+  <data name="UseSsl.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na SSL e hlokahala bakeng sa seva sa hau sa SMTP</value>
+  </data>
+  <data name="SmtpUsername.HelpText" xml:space="preserve">
+    <value>Kenya lebitso la mosebelisi bakeng sa ak&apos;haonte ea hau ea SMTP</value>
+  </data>
+  <data name="SmtpPassword.HelpText" xml:space="preserve">
+    <value>Kenya phasewete bakeng sa ak&apos;haonte ea hau ea SMTP</value>
+  </data>
+  <data name="SmtpSender.HelpText" xml:space="preserve">
+    <value>Kenya lengolo-tsoibila leo li-imeile li tla romelloa ho lona. Ka kopo elelloa hore aterese ena ea lengolo-tsoibila e kanna ea hloka tumello ho seva sa SMTP.</value>
+  </data>
+  <data name="EnablePWA.HelpText" xml:space="preserve">
+    <value>Khetha hore na u ka rata hore sebaka sena sa marang-rang se fumanehe e le Progressive Web Application (PWA)</value>
+  </data>
+  <data name="PwaApplicationIcon.HelpText" xml:space="preserve">
+    <value>Kenyelletsa aekhone ea kopo bakeng sa PWA ea hau. E lokela ho ba PNG e nang le lipikselse tse 192 x 192 ka boholo.</value>
+  </data>
+  <data name="PwaSplashIcon.HelpText" xml:space="preserve">
+    <value>Kenyelletsa letšoao la Splash bakeng sa PWA ea hau. E lokela ho ba PNG e nang le lipikselse tse 512 x 512 ka boholo.</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>Database: </value>
+  </data>
+  <data name="Aliases.Text" xml:space="preserve">
+    <value>Li-URL:</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>E tlositsoe? </value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>Logo: </value>
+  </data>
+  <data name="FavoriteIcon.Text" xml:space="preserve">
+    <value>Favicon: </value>
+  </data>
+  <data name="DefaultTheme.Text" xml:space="preserve">
+    <value>Sehlooho se sa tloaelehang: </value>
+  </data>
+  <data name="DefaultAdminContainer.Text" xml:space="preserve">
+    <value>Default Admin Container: </value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Moamoheli: </value>
+  </data>
+  <data name="Port.Text" xml:space="preserve">
+    <value>Boema-kepe: </value>
+  </data>
+  <data name="UseSsl.Text" xml:space="preserve">
+    <value>SSL e nolofalitsoe: </value>
+  </data>
+  <data name="SmtpUsername.Text" xml:space="preserve">
+    <value>Lebitso la mosebelisi: </value>
+  </data>
+  <data name="SmtpPassword.Text" xml:space="preserve">
+    <value>Phasewete: </value>
+  </data>
+  <data name="SmtpSender.Text" xml:space="preserve">
+    <value>Moromelli oa lengolo-tsoibila: </value>
+  </data>
+  <data name="EnablePWA.Text" xml:space="preserve">
+    <value>Na e lumelloa? </value>
+  </data>
+  <data name="PwaApplicationIcon.Text" xml:space="preserve">
+    <value>App Icon: </value>
+  </data>
+  <data name="PwaSplashIcon.Text" xml:space="preserve">
+    <value>Splash Icon: </value>
+  </data>
+  <data name="Confirm.DeleteSite" xml:space="preserve">
+    <value>Na u na le bonnete ba hore u batla ho hlakola sebaka see?</value>
+  </data>
+  <data name="Error.DeleteSite" xml:space="preserve">
+    <value>Phoso ea ho hlakola sebaka</value>
+  </data>
+  <data name="Message.FailAuth.DeleteSite" xml:space="preserve">
+    <value>Ha u lumelloe ho hlakola sebaka sena sa marang-rang</value>
+  </data>
+  <data name="Theme.Select" xml:space="preserve">
+    <value>Khetha Sehlooho</value>
+  </data>
+  <data name="Hosting.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa Likarolo tsa UI</value>
+  </data>
+  <data name="Prerender.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na likarolo tse sebelisanang li lokela ho fana ka tlhahiso ea tsona ho seva</value>
+  </data>
+  <data name="Prerender.Text" xml:space="preserve">
+    <value>Prerender: </value>
+  </data>
+  <data name="RenderMode.HelpText" xml:space="preserve">
+    <value>Mokhoa o fosahetseng oa ho fana ka sebaka sa marang-rang</value>
+  </data>
+  <data name="RenderMode.Text" xml:space="preserve">
+    <value>Mokhoa oa Render:</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="TenantInformation.Heading" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="PWASettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa PWA</value>
+  </data>
+  <data name="SMTPSettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa SMTP</value>
+  </data>
+  <data name="ConnectionString.Text" xml:space="preserve">
+    <value>Khokahano:</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>Mofuta:</value>
+  </data>
+  <data name="ConnectionString.HelpText" xml:space="preserve">
+    <value>Lebitso la khoele ea khokahano ho appsettings.json e tla sebelisoa ho hokahanya le database</value>
+  </data>
+  <data name="Database.HelpText" xml:space="preserve">
+    <value>Mofuta oa database</value>
+  </data>
+  <data name="DeleteSite.Header" xml:space="preserve">
+    <value>Delete Site</value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>Delete Site</value>
+  </data>
+  <data name="DefaultAlias.HelpText" xml:space="preserve">
+    <value>Lebitso le sa tloaelehang bakeng sa sebaka sa marang-rang. Likopo tsa li-aliases tse sa fetoheng li tla lebisoa ho alias e sa sebetseng.</value>
+  </data>
+  <data name="DefaultAlias.Text" xml:space="preserve">
+    <value>Alias e sa tloaelehang: </value>
+  </data>
+  <data name="Aliases.Heading" xml:space="preserve">
+    <value>Li-URL tsa sebaka</value>
+  </data>
+  <data name="AliasName" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="AliasDefault" xml:space="preserve">
+    <value>Default?</value>
+  </data>
+  <data name="Confirm.Alias.Delete" xml:space="preserve">
+    <value>Na u kholisehile hore u batla ho hlakola {0}?</value>
+  </data>
+  <data name="HomePage.HelpText" xml:space="preserve">
+    <value>Select the home page for the site (to be used if there is no page with a path of '/')</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>Leqephe la lehae:</value>
+  </data>
+  <data name="SmtpRelay.HelpText" xml:space="preserve">
+    <value>Only specify this option if you have properly configured an SMTP Relay Service to route your outgoing mail. This option will send notifications from the user's email rather than from the Email Sender specified above.</value>
+  </data>
+  <data name="SmtpRelay.Text" xml:space="preserve">
+    <value>Relay e hlophisitsoe?</value>
+  </data>
+  <data name="SiteMap.HelpText" xml:space="preserve">
+    <value>&apos;Mapa oa sebaka sa marang-rang o na le URL ea sebaka sena sa marang-rang se ka romelloang lienjiniking tsa ho batla bakeng sa indexing. &apos;Mapa oa sebaka sa marang-rang o bolokiloe ka metsotso e 5&apos; me cache e ka hlakoloa ka letsoho.</value>
+  </data>
+  <data name="SiteMap.Text" xml:space="preserve">
+    <value>&apos;Mapa oa sebaka:</value>
+  </data>
+  <data name="Appearance.Heading" xml:space="preserve">
+    <value>Ponahalo</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>Ka boikhethelo kenya litaba tse lokelang ho kenyelletsoa hloohong ea leqephe (ke hore, meta, link, kapa li-tag tsa script)</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>Hlooho ea Hlooho:</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>Ka boikhethelo kenya litaba tse lokelang ho kenyelletsoa &apos;meleng oa leqephe (ke hore, li-tag tsa script)</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>Litaba tsa &apos;mele:</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>Litaba tsa leqephe</value>
+  </data>
+  <data name="SMTPEnabled.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na SMTP e lumelloa bakeng sa sebaka sena sa marang-rang</value>
+  </data>
+  <data name="SMTPEnabled.Text" xml:space="preserve">
+    <value>E nolofalitsoe?</value>
+  </data>
+  <data name="Version.HelpText" xml:space="preserve">
+    <value>Phetolelo ea sebaka sa marang-rang (bakeng sa ho falla ha litaba tsa marang-rang)</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>Phetolelo:</value>
+  </data>
+  <data name="DeleteAlias.Text" xml:space="preserve">
+    <value>Hlakola</value>
+  </data>
+  <data name="DeleteAlias.Header" xml:space="preserve">
+    <value>Delete Alias</value>
+  </data>
+  <data name="SiteGuid.HelpText" xml:space="preserve">
+    <value>Sebaka se ikhethileng sa sebaka sa marang-rang</value>
+  </data>
+  <data name="SiteGuid.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="Retention.HelpText" xml:space="preserve">
+    <value>Palo ea matsatsi a litsebiso tse lokelang ho bolokoa</value>
+  </data>
+  <data name="Retention.Text" xml:space="preserve">
+    <value>Ho boloka (matsatsi):</value>
+  </data>
+  <data name="HybridEnabled.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na sebaka sa marang-rang se ka kopanngoa le ts&apos;ebeliso ea kantle ea .NET MAUI hybrid</value>
+  </data>
+  <data name="HybridEnabled.Text" xml:space="preserve">
+    <value>Hybrid e nolofalitsoe?</value>
+  </data>
+  <data name="Runtime.HelpText" xml:space="preserve">
+    <value>Mokhoa oa ho fana ka likarolo tsa UI tse hlokang tšebelisano &apos;moho</value>
+  </data>
+  <data name="Runtime.Text" xml:space="preserve">
+    <value>Tšebelisano &apos;moho:</value>
+  </data>
+  <data name="TextEditor.HelpText" xml:space="preserve">
+    <value>Khetha mohlophisi oa mongolo bakeng sa sebaka sa marang-rang</value>
+  </data>
+  <data name="TextEditor.Text" xml:space="preserve">
+    <value>Mohlophisi oa mongolo:</value>
+  </data>
+  <data name="Functionality" xml:space="preserve">
+    <value>Ts&apos;ebetso</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Tsamaiso</value>
+  </data>
+  <data name="CookieConsent.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na tumello ea cookie e lumelloa sebakeng sena sa marang-rang. Ka kopo elelloa hore khetho ena e tlameha ho sebelisoa hammoho le sehlooho se tšehetsang tumello ea cookie.</value>
+  </data>
+  <data name="CookieConsent.Text" xml:space="preserve">
+    <value>Tumello ea Cookie:</value>
+  </data>
+  <data name="OptIn" xml:space="preserve">
+    <value>Opt-In (GDPR)</value>
+  </data>
+  <data name="OptOut" xml:space="preserve">
+    <value>Opt-Out (CCPA)</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>Sehlooho</value>
+  </data>
+  <data name="SiteMap.EvictCache" xml:space="preserve">
+    <value>Clear Cache</value>
+  </data>
+  <data name="Success.SiteMap.CacheEvicted" xml:space="preserve">
+    <value>Site Map Cache Cleared</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>Sebaka sa nako:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>Nako ea Default bakeng sa sebaka sa marang-rang</value>
+  </data>
+</root>

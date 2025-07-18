@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Password e lebetsoeng</value>
+  </data>
+  <data name="Success.Account.Verified" xml:space="preserve">
+    <value>Aterese ea lengolo-tsoibila ea ak&apos;haonte ea mosebelisi e netefalitsoe ka katleho. Hona joale u ka kena ka lebitso la hau la mosebelisi le phasewete.</value>
+  </data>
+  <data name="Message.Account.NotVerified" xml:space="preserve">
+    <value>Aterese ea lengolo-tsoibila ea ak&apos;haonte ea mosebelisi e ne e ke ke ea netefatsoa. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="Success.Account.Linked" xml:space="preserve">
+    <value>Ak&apos;haonte ea mosebelisi e hokahane ka katleho. Hona joale u ka kena ka ho kena ha hau ka ntle ka tlase.</value>
+  </data>
+  <data name="Message.Account.NotLinked" xml:space="preserve">
+    <value>Ho kena ka ntle ho ne ho ke ke ha hokahanngoa. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="Error.Login.Fail" xml:space="preserve">
+    <value>Login e hlolehile. Ka kopo hopola hore li-password li na le linyeoe tse hlokolosi. Haeba u lekile ho kena makhetlo a &apos;maloa u sa atlehe, ak&apos;haonte ea hau e tla koaloa ka nakoana. Hlokomela hore liakhaonto tsa mosebelisi hangata li hloka netefatso ea aterese ea lengolo-tsoibila kahoo o kanna oa batla ho lekola lengolo-tsoibila la hau bakeng sa tsebiso.</value>
+  </data>
+  <data name="Message.Required.UserInfo" xml:space="preserve">
+    <value>Ka kopo fana ka masimo ohle a hlokahalang</value>
+  </data>
+  <data name="Info.SignedIn" xml:space="preserve">
+    <value>U se u saenetse</value>
+  </data>
+  <data name="Message.ForgotPassword" xml:space="preserve">
+    <value>Ka kopo kenya lebitso la mosebelisi le amanang le ak&apos;haonte ea hau ebe u khetha khetho ea phasewete e lebetsoeng hape</value>
+  </data>
+  <data name="Message.ForgotUser" xml:space="preserve">
+    <value>Ka kopo sheba aterese ea lengolo-tsoibila e amanang le ak&apos;haonte ea hau ea mosebelisi bakeng sa tsebiso ea ho seta phasewete</value>
+  </data>
+  <data name="Message.UserDoesNotExist" xml:space="preserve">
+    <value>Mosebelisi ha a eo</value>
+  </data>
+  <data name="Code.HelpText" xml:space="preserve">
+    <value>Ka kopo kenya khoutu ea netefatso e sireletsehileng eo u e rometsoeng ka lengolo-tsoibila.</value>
+  </data>
+  <data name="Code.Placeholder" xml:space="preserve">
+    <value>Khoutu ea netefatso</value>
+  </data>
+  <data name="Code.Text" xml:space="preserve">
+    <value>Khoutu ea netefatso:</value>
+  </data>
+  <data name="Error.TwoFactor.Fail" xml:space="preserve">
+    <value>Netefatso e hlolehile. Ka kopo etsa bonnete ba hore o kentse khoutu ka mokhoa o nepahetseng ka foromo e fanoeng ka lengolo-tsoibila la hau. Haeba u batla ho kopa khoutu e ncha ea netefatso, ka kopo khetha khetho ea ho hlakola ebe u kena hape. </value>
+  </data>
+  <data name="Message.TwoFactor" xml:space="preserve">
+    <value>Khoutu ea netefatso e sireletsehileng e rometsoe atereseng ea hau ea lengolo-tsoibila. Ka kopo kenya khoutu eo u e fumaneng. Haeba u sa fumane khoutu kapa u lahlehetsoe ke phihlello ea lengolo-tsoibila la hau, ka kopo ikopanye le mookameli oa hau.</value>
+  </data>
+  <data name="Password.HelpText" xml:space="preserve">
+    <value>Ka kopo kenya phasewete e amanang le ak&apos;haonte ea hau. Hopola hore li-password li na le linyeoe tse amanang le linyeoe. Haeba u leka ho kena ka har&apos;a ak&apos;haonte ea hau makhetlo a mangata, u tla koalloa ka ntle ka nako e itseng.</value>
+  </data>
+  <data name="Password.Placeholder" xml:space="preserve">
+    <value>Phasewete</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Phasewete:</value>
+  </data>
+  <data name="Remember.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na u ka rata ho ingolisa hape ka boiketsetso nakong e tlang ha u etela sebaka sena sa marang-rang</value>
+  </data>
+  <data name="Remember.Text" xml:space="preserve">
+    <value>Na u nkhopotse?</value>
+  </data>
+  <data name="Username.HelpText" xml:space="preserve">
+    <value>Ka kopo kenya lebitso la mosebelisi le amanang le ak&apos;haonte ea hau</value>
+  </data>
+  <data name="Username.Placeholder" xml:space="preserve">
+    <value>Lebitso la mosebelisi</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Lebitso la mosebelisi:</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Ts&apos;ebeliso</value>
+  </data>
+  <data name="Error.LoadLogin" xml:space="preserve">
+    <value>Phoso ea ho kenya ho kena</value>
+  </data>
+  <data name="Error.Login" xml:space="preserve">
+    <value>Phoso ea ho kenya</value>
+  </data>
+  <data name="Error.ResetPassword" xml:space="preserve">
+    <value>Phoso ea ho khutlisa phasewete</value>
+  </data>
+  <data name="ExternalLoginStatus.DuplicateEmail" xml:space="preserve">
+    <value>Liakhaonto tse ngata tsa mosebelisi li se li ntse li le teng ka aterese ea lengolo-tsoibila la hau la kantle. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.MissingClaims" xml:space="preserve">
+    <value>Mofani oa thepa ea kantle ha aa ka a fana ka tlhaiso-leseling eohle e hlokahalang. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.ProviderKeyMismatch" xml:space="preserve">
+    <value>Phoso e etsahetse ha u netefatsa ho kena ha hau ka ntle. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserDoesNotExist" xml:space="preserve">
+    <value>Ak&apos;haonte ea mosebelisi e lumellanang le aterese ea hau ea lengolo-tsoibila ha e eo. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserNotCreated" xml:space="preserve">
+    <value>Ak&apos;haonte ea mosebelisi e ne e ke ke ea thehoa bakeng sa ho kena ha hau ka ntle. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.VerificationRequired" xml:space="preserve">
+    <value>Bakeng sa ho hokahanya sebaka sa hau sa marang-rang le ak&apos;haonte ea hau ea mosebelisi, o tlameha ho netefatsa boitsebahatso ba hau. Ka kopo sheba lengolo-tsoibila la hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.AccessDenied" xml:space="preserve">
+    <value>Login ea hau ea kantle e haneloa ho fihlella. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.RemoteFailure" xml:space="preserve">
+    <value>Login ea hau ea kantle e hlolehile. Ka kopo ikopanye le mookameli oa hau bakeng sa litaelo tse ling.</value>
+  </data>
+  <data name="ExternalLoginStatus.ReviewClaims" xml:space="preserve">
+    <value>Khetho ea Tlhahlobo ea Claims e nolofalitsoe ho li-setting tsa kantle tsa ho kena. Ka kopo sheba Event Log ho bona likopo tse khutlisitsoeng ke mofani oa thepa.</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Ngolisa e le mosebelisi e mocha?</value>
+  </data>
+</root>

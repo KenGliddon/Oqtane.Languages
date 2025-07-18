@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Confirm.User.Delete" xml:space="preserve">
+    <value>Na u kholisehile hore u batla ho hlakola {0}?</value>
+  </data>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>Eketsa mosebelisi</value>
+  </data>
+  <data name="DeleteUser.Header" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="AllowRegistration.HelpText" xml:space="preserve">
+    <value>Na u batla hore baeti ba sa tsejoeng ba ka ingolisa bakeng sa ak&apos;haonte sebakeng sa marang-rang?</value>
+  </data>
+  <data name="AllowRegistration.Text" xml:space="preserve">
+    <value>Lumella ngoliso? </value>
+  </data>
+  <data name="RegisterUrl.HelpText" xml:space="preserve">
+    <value>Ka boikhethelo, fana ka URL ea ngoliso ea tloaelo</value>
+  </data>
+  <data name="RegisterUrl.Text" xml:space="preserve">
+    <value>Ngoliso ea URL: </value>
+  </data>
+  <data name="ProfileUrl.HelpText" xml:space="preserve">
+    <value>Ka boikhethelo, fana ka URL ea profil ea mosebelisi ea tloaelo</value>
+  </data>
+  <data name="ProfileUrl.Text" xml:space="preserve">
+    <value>URL ea profil: </value>
+  </data>
+  <data name="Error.SaveSiteSettings" xml:space="preserve">
+    <value>Phoso ea ho boloka litlhophiso</value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>Litlhophiso</value>
+  </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>Litlhophiso tse bolokiloeng ka katleho</value>
+  </data>
+  <data name="Users.Heading" xml:space="preserve">
+    <value>Basebelisi</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>Hlakola</value>
+  </data>
+  <data name="EditUser.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Roles.Text" xml:space="preserve">
+    <value>Mesebetsi</value>
+  </data>
+  <data name="LockoutDuration.HelpText" xml:space="preserve">
+    <value>Palo ea metsotso eo mosebelisi a lokelang ho koaloa ka eona</value>
+  </data>
+  <data name="LockoutDuration.Text" xml:space="preserve">
+    <value>Nako ea ho notlela:</value>
+  </data>
+  <data name="MaximumFailures.HelpText" xml:space="preserve">
+    <value>Palo e phahameng ka ho fetisisa ea liteko tsa ho saena pele mosebelisi a koaloa</value>
+  </data>
+  <data name="MaximumFailures.Text" xml:space="preserve">
+    <value>Ho hloleha ho phahameng:</value>
+  </data>
+  <data name="RequireDigit.HelpText" xml:space="preserve">
+    <value>Bontša hore na li-password li tlameha ho ba le linomoro</value>
+  </data>
+  <data name="RequireDigit.Text" xml:space="preserve">
+    <value>Hloka Digit?</value>
+  </data>
+  <data name="RequiredLength.HelpText" xml:space="preserve">
+    <value>Bolelele bo tlase ba phasewete</value>
+  </data>
+  <data name="RequiredLength.Text" xml:space="preserve">
+    <value>Bolelele bo bonyane:</value>
+  </data>
+  <data name="RequireLower.HelpText" xml:space="preserve">
+    <value>Bontša hore na li-password li tlameha ho ba le litlhaku tse nyane</value>
+  </data>
+  <data name="RequireLower.Text" xml:space="preserve">
+    <value>Hloka litlhaku tse nyane?</value>
+  </data>
+  <data name="RequirePunctuation.HelpText" xml:space="preserve">
+    <value>Bontša hore na li-password li tlameha ho ba le litlhaku tse seng tsa alphanumeric (ke hore, matšoao)</value>
+  </data>
+  <data name="RequirePunctuation.Text" xml:space="preserve">
+    <value>Na ho hlokahala matšoao?</value>
+  </data>
+  <data name="RequireUpper.HelpText" xml:space="preserve">
+    <value>Bontša hore na li-password li tlameha ho ba le litlhaku tse kholo</value>
+  </data>
+  <data name="RequireUpper.Text" xml:space="preserve">
+    <value>Na u hloka litlhaku tse kholo?</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>Tlhophiso e ntlafalitsoe. Ka kopo khetha Qala bocha kopo bakeng sa liphetoho tsena hore li sebelisoe.</value>
+  </data>
+  <data name="UniqueCharacters.HelpText" xml:space="preserve">
+    <value>Palo e tlase ea litlhaku tse ikhethileng tseo phasewete e lokelang ho ba le tsona</value>
+  </data>
+  <data name="UniqueCharacters.Text" xml:space="preserve">
+    <value>Litlhaku tse ikhethang:</value>
+  </data>
+  <data name="AllowSiteLogin.HelpText" xml:space="preserve">
+    <value>Na u batla ho lumella basebelisi ho kena ba sebelisa lebitso la mosebelisi le phasewete e laoloang sebakeng sa heno sebakeng sena sa marang-rang? Hlokomela hore o lokela ho tima khetho ena feela haeba o se o hlophisitse ka katleho mofani oa kantle oa ho kena, ho seng joalo o ka inotlela sebakeng sa marang-rang.</value>
+  </data>
+  <data name="AllowSiteLogin.Text" xml:space="preserve">
+    <value>Lumella ho kena ka lehae?</value>
+  </data>
+  <data name="Authority.HelpText" xml:space="preserve">
+    <value>URL ea bolaoli kapa URL ea mofani oa boitsebahatso e amanang le mofani oa boitsebahatso</value>
+  </data>
+  <data name="Authority.Text" xml:space="preserve">
+    <value>Bolaoli:</value>
+  </data>
+  <data name="AuthorizationUrl.HelpText" xml:space="preserve">
+    <value>Qetello ea ho fumana khoutu ea tumello</value>
+  </data>
+  <data name="AuthorizationUrl.Text" xml:space="preserve">
+    <value>URL ea tumello:</value>
+  </data>
+  <data name="ClientID.HelpText" xml:space="preserve">
+    <value>ID ea moreki bakeng sa mofani oa boitsebahatso</value>
+  </data>
+  <data name="ClientID.Text" xml:space="preserve">
+    <value>ID ea moreki:</value>
+  </data>
+  <data name="ClientSecret.HelpText" xml:space="preserve">
+    <value>Lekunutu la moreki bakeng sa mofani oa boitsebahatso</value>
+  </data>
+  <data name="ClientSecret.Text" xml:space="preserve">
+    <value>Lekunutu la Moreki:</value>
+  </data>
+  <data name="CreateUsers.HelpText" xml:space="preserve">
+    <value>Na u batla hore basebelisi ba bacha ba bōptjoe ka boiketsetso? Haeba u tima khetho ena, basebelisi ba tlameha ho se ba ngolisitsoe sebakeng sa marang-rang ho kena ka ho kena ka ntle.</value>
+  </data>
+  <data name="CreateUsers.Text" xml:space="preserve">
+    <value>Ho theha basebelisi ba bacha?</value>
+  </data>
+  <data name="DomainFilter.HelpText" xml:space="preserve">
+    <value>Provide any email domain filter criteria (separated by commas). Domains to exclude should be prefixed with an exclamation point (!). For example 'microsoft.com,!hotmail.com' would include microsoft.com email addresses but not hotmail.com email addresses.</value>
+  </data>
+  <data name="DomainFilter.Text" xml:space="preserve">
+    <value>Domain Filter:</value>
+  </data>
+  <data name="EmailClaimType.HelpText" xml:space="preserve">
+    <value>Optionally specify the type name of the email address claim provided by the identity provider. The typical value is 'email'.</value>
+  </data>
+  <data name="EmailClaimType.Text" xml:space="preserve">
+    <value>Kopo ea lengolo-tsoibila:</value>
+  </data>
+  <data name="ExternalLoginSettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa ho kena ka ntle</value>
+  </data>
+  <data name="LockoutSettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa Lockout</value>
+  </data>
+  <data name="MetadataUrl.HelpText" xml:space="preserve">
+    <value>Sebaka sa ho sibolla bakeng sa ho fumana metadata bakeng sa mofani enoa oa boitsebahatso. Bolela feela haeba mofani oa boitsebahatso a sa sebelise mokhoa o tloaelehileng (ke hore, /.well-known / openid-configuration)</value>
+  </data>
+  <data name="MetadataUrl.Text" xml:space="preserve">
+    <value>URL ea metadata:</value>
+  </data>
+  <data name="PasswordSettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa Password</value>
+  </data>
+  <data name="PKCE.HelpText" xml:space="preserve">
+    <value>Bontša hore na mofani oa boitsebahatso o ts&apos;ehetsa senotlolo sa bopaki bakeng sa phapanyetsano ea khoutu (PKCE)</value>
+  </data>
+  <data name="PKCE.Text" xml:space="preserve">
+    <value>Sebelisa PKCE?</value>
+  </data>
+  <data name="ProviderName.HelpText" xml:space="preserve">
+    <value>Hlalosa lebitso la botsoalle bakeng sa mofani oa kantle oa ho kena o tla bonts&apos;oa leqepheng la ho kena</value>
+  </data>
+  <data name="ProviderName.Text" xml:space="preserve">
+    <value>Lebitso la Mofani:</value>
+  </data>
+  <data name="ProviderType.HelpText" xml:space="preserve">
+    <value>Khetha mofuta oa mofani oa ho kena ka ntle</value>
+  </data>
+  <data name="ProviderType.Text" xml:space="preserve">
+    <value>Mofuta oa Mofani:</value>
+  </data>
+  <data name="RedirectUrl.HelpText" xml:space="preserve">
+    <value>URL ea redirect (kapa callback url) eo hangata e hlokang ho ngolisoa le mofani oa boitsebahatso</value>
+  </data>
+  <data name="RedirectUrl.Text" xml:space="preserve">
+    <value>Redirect Url:</value>
+  </data>
+  <data name="Scopes.HelpText" xml:space="preserve">
+    <value>Lethathamo la li-scopes tseo u ka li kōpang ho mofani oa boitsebahatso (tse arohaneng ka li-commas). Haeba ho se na li-scopes tse hlalositsoeng, li-scopes tse tloaelehileng li tla sebelisoa ka boiketsetso.</value>
+  </data>
+  <data name="Scopes.Text" xml:space="preserve">
+    <value>Scopes:</value>
+  </data>
+  <data name="TokenUrl.HelpText" xml:space="preserve">
+    <value>Qetello ea ho fumana letšoao la auth</value>
+  </data>
+  <data name="TokenUrl.Text" xml:space="preserve">
+    <value>URL ea Token:</value>
+  </data>
+  <data name="UserInfoUrl.HelpText" xml:space="preserve">
+    <value>Mokhoa oa ho fumana tlhaiso-leseling ea mosebelisi. Ena e lokela ho ba sebaka sa ho qetela sa API kapa URL ea leqephe e nang le aterese ea lengolo-tsoibila la mosebelisi.</value>
+  </data>
+  <data name="UserInfoUrl.Text" xml:space="preserve">
+    <value>User Info Url:</value>
+  </data>
+  <data name="Audience.HelpText" xml:space="preserve">
+    <value>Ho Ho Ho Hoodie</value>
+  </data>
+  <data name="Audience.Text" xml:space="preserve">
+    <value>Bamameli:</value>
+  </data>
+  <data name="UserSettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa mosebelisi</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>U ka khetha ho sebelisa lebitso la cookie la netefatso ea tloaelo bakeng sa sebaka se seng le se seng. Leha ho le joalo, ka kopo elelloa hore haeba u batla ho arolelana cookie ea netefatso lipakeng tsa libaka tse sebakeng se le seng, ba hloka ho sebelisa lebitso la cookie le lumellanang. Hape hlokomela hore ho fetola lebitso la cookie ea netefatso ho tla tlosa basebelisi bohle ba hajoale.</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Lebitso la Cookie:</value>
+  </data>
+  <data name="CreateToken" xml:space="preserve">
+    <value>Theha Token</value>
+  </data>
+  <data name="Issuer.HelpText" xml:space="preserve">
+    <value>Fana ka mofani oa thepa ea ka boikhethelo</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>Mofani oa lihlahisoa:</value>
+  </data>
+  <data name="Lifetime.HelpText" xml:space="preserve">
+    <value>Palo ea metsotso eo letšoao le lokelang ho ba le eona</value>
+  </data>
+  <data name="Lifetime.Text" xml:space="preserve">
+    <value>Bophelo bohle:</value>
+  </data>
+  <data name="Secret.HelpText" xml:space="preserve">
+    <value>Haeba u batla ho fana ka phihlello ea API, ka kopo hlakisa lekunutu le tla sebelisoa ho pata li-tokens tsa hau. Lekunutu le lokela ho ba le litlhaku tse 16 kapa ho feta ho netefatsa polokeho e nepahetseng. Ka kopo elelloa hore haeba u fetola lekunutu lena, li-tokens tsohle tse teng li tla fetoha tse sa sebetseng &apos;me li tla hloka ho nchafatsoa.</value>
+  </data>
+  <data name="Secret.Text" xml:space="preserve">
+    <value>Lekunutu:</value>
+  </data>
+  <data name="Token.HelpText" xml:space="preserve">
+    <value>Tobetsa konopo ea Create Token ho hlahisa letšoao la phihlello ea nako e telele (e sebetsang selemo se le seng). Etsa bonnete ba hore u boloka letšoao lena sebakeng se sireletsehileng kaha u ke ke ua khona ho e fumana nakong e tlang.</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>Letšoao:</value>
+  </data>
+  <data name="TokenSettings.Heading" xml:space="preserve">
+    <value>Litlhophiso tsa Token</value>
+  </data>
+  <data name="TwoFactor.HelpText" xml:space="preserve">
+    <value>Na u batla hore basebelisi ba sebelise netefatso ea lintlha tse peli? Hlokomela hore o lokela ho sebelisa khetho ea Holofetse ho fihlela o netefalitse ka katleho hore Mosebetsi oa Tsebiso ho Mesebetsi e Hlophisitsoeng o lumelletsoe mme likhetho tsa hau tsa SMTP ho Litlhophiso tsa Sebaka li hlophisitsoe ho seng joalo u tla inotlela.</value>
+  </data>
+  <data name="TwoFactor.Text" xml:space="preserve">
+    <value>Lintlha tse peli?</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Ba holofetseng</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Boikhethelo</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Ho hlokahala</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>Login ea ho qetela</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>Specify the type name of the unique user identifier claim provided by the identity provider. The default value is 'sub'.</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>Kopo ea Identific:</value>
+  </data>
+  <data name="Parameters.HelpText" xml:space="preserve">
+    <value>Ka boikhethelo, totobatsa mekhahlelo efe kapa efe e meng e le lipara tsa mabitso / boleng ho romella mofani oa boitsebahatso (e arohaneng ke li-commas haeba ho na le tse ngata).</value>
+  </data>
+  <data name="Parameters.Text" xml:space="preserve">
+    <value>Mekhahlelo:</value>
+  </data>
+  <data name="RoleClaimType.HelpText" xml:space="preserve">
+    <value>Optionally provide the type name of the roles claim provided by the identity provider (the standard default is 'roles'). If role names from the identity provider do not exactly match your site role names, please use the Role Claim Mappings.</value>
+  </data>
+  <data name="RoleClaimType.Text" xml:space="preserve">
+    <value>Mesebetsi e boletse:</value>
+  </data>
+  <data name="RoleClaimMappings.HelpText" xml:space="preserve">
+    <value>Optionally provide a comma delimited list of role names provided by the identity provider, as well as mappings to your site roles. For example if the identity provider includes an 'Admin' role name and you want it to map to the 'Administrators' site role you should specify 'Admin:Administrators'.</value>
+  </data>
+  <data name="RoleClaimMappings.Text" xml:space="preserve">
+    <value>Role Claim Mappings:</value>
+  </data>
+  <data name="SynchronizeRoles.HelpText" xml:space="preserve">
+    <value>Khetho ena e tla eketsa kapa e tlose likabelo tsa karolo e le hore mesebetsi ea sebaka sa marang-rang e lumellane hantle le mesebetsi e fanoeng ke mofani oa boitsebahatso bakeng sa mosebelisi</value>
+  </data>
+  <data name="SynchronizeRoles.Text" xml:space="preserve">
+    <value>Synchronize Roles?</value>
+  </data>
+  <data name="ProfileClaimTypes.HelpText" xml:space="preserve">
+    <value>Optionally provide a comma delimited list of user profile claim type names provided by the identity provider, as well as mappings to your user profile definition. For example if the identity provider includes a 'given_name' claim and you have a 'FirstName' user profile definition you should specify 'given_name:FirstName'.</value>
+  </data>
+  <data name="ProfileClaimTypes.Text" xml:space="preserve">
+    <value>Polelo ea profil ea mosebelisi:</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Lebitso la mosebelisi</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Lebitso</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Imeile</value>
+  </data>
+  <data name="ImportUsers.Text" xml:space="preserve">
+    <value>Import Users</value>
+  </data>
+  <data name="AuthFlow.Code" xml:space="preserve">
+    <value>Khoutu ea Tumello</value>
+  </data>
+  <data name="AuthFlow.CodeIdToken" xml:space="preserve">
+    <value>Khoutu ea Tumello + ID Token</value>
+  </data>
+  <data name="AuthFlow.CodeIdTokenToken" xml:space="preserve">
+    <value>Khoutu ea tumello + ID Token + Access Token</value>
+  </data>
+  <data name="AuthFlow.CodeToken" xml:space="preserve">
+    <value>Khoutu ea Tumello + Access Token</value>
+  </data>
+  <data name="AuthFlow.IdToken" xml:space="preserve">
+    <value>Letšoao la ID</value>
+  </data>
+  <data name="AuthFlow.IdTokenToken" xml:space="preserve">
+    <value>ID Token + Access Token</value>
+  </data>
+  <data name="AuthFlow.None" xml:space="preserve">
+    <value>Ha ho le ea mong</value>
+  </data>
+  <data name="AuthFlow.Token" xml:space="preserve">
+    <value>Letšoao la Phihlello</value>
+  </data>
+  <data name="AuthResponseType.Text" xml:space="preserve">
+    <value>Mofuta oa Karabelo ea Tumello:</value>
+  </data>
+  <data name="AuthResponseType.HelpText" xml:space="preserve">
+    <value>Hlalosa mofuta oa karabelo ea tumello. Khoutu ea tumello ke Khoutu ea Tumello e nkoang e le khetho e sireletsehileng ka ho fetesisa e ipapisitse le litlhaloso tsa morao-rao tsa OAuth.</value>
+  </data>
+  <data name="VerifyUsers.HelpText" xml:space="preserve">
+    <value>Na u batla hore basebelisi ba teng ba etse mohato o mong oa netefatso ea lengolo-tsoibila ho hokahanya ho kena ha bona ka ntle? Haeba u tima khetho ena, basebelisi ba seng ba ntse ba le teng ba tla hokahanngoa ka boiketsetso.</value>
+  </data>
+  <data name="VerifyUsers.Text" xml:space="preserve">
+    <value>Ho netefatsa basebelisi ba teng?</value>
+  </data>
+  <data name="AlwaysRemember.HelpText" xml:space="preserve">
+    <value>Ho nolofalletsa khetho ena ho tla beha cookie e sa feleng hammoho le Nako ea ho felloa ke nako ea cookie, e tla kena ka boiketsetso ho basebelisi nakong e tlang ha ba etela sebaka sa marang-rang. Ka boiketsetso, sebaka sa marang-rang se tla sebelisa li-cookie tsa session.</value>
+  </data>
+  <data name="AlwaysRemember.Text" xml:space="preserve">
+    <value>Kamehla hopola mosebelisi?</value>
+  </data>
+  <data name="CookieExpiration.HelpText" xml:space="preserve">
+    <value>You can choose to use a custom authentication cookie expiration timespan for each site (e.g. '08:00:00' for 8 hours). The default is 14 days if not specified.</value>
+  </data>
+  <data name="CookieExpiration.Text" xml:space="preserve">
+    <value>Nako ea ho felloa ke nako ea cookie:</value>
+  </data>
+  <data name="ReviewClaims.Text" xml:space="preserve">
+    <value>Likopo tsa tlhahlobo?</value>
+  </data>
+  <data name="ReviewClaims.HelpText" xml:space="preserve">
+    <value>Khetho ena e tla rekota lenane le felletseng la likopo tse khutlisitsoeng ke mofani ho Log ea Ketsahalo. E lokela ho sebelisoa feela bakeng sa merero ea liteko. Ho kena kantle ho naha ho tla thibeloa ha khetho ena e lumelloa.</value>
+  </data>
+  <data name="NameClaimType.HelpText" xml:space="preserve">
+    <value>Optionally specify the type name of the user's name claim provided by the identity provider. The typical value is 'name'.</value>
+  </data>
+  <data name="NameClaimType.Text" xml:space="preserve">
+    <value>Kopo ea lebitso:</value>
+  </data>
+  <data name="Provider.HelpText" xml:space="preserve">
+    <value>Khetha mofani oa ho kena ka ntle</value>
+  </data>
+  <data name="Provider.Text" xml:space="preserve">
+    <value>Mofani:</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Tlhahisoleseling</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>OAuth 2.0</value>
+  </data>
+  <data name="OIDC" xml:space="preserve">
+    <value>OpenID Connect (OIDC)</value>
+  </data>
+  <data name="SaveTokens.Text" xml:space="preserve">
+    <value>Boloka li-tokens?</value>
+  </data>
+  <data name="SaveTokens.HelpText" xml:space="preserve">
+    <value>Hlalosa hore na li-tokens tsa phihlello le tsa khathollo li lokela ho bolokoa kamora ho kena ka katleho. Phoso ke leshano ho fokotsa boholo ba cookie ea netefatso.</value>
+  </data>
+  <data name="Success.DeleteUser" xml:space="preserve">
+    <value>Mosebelisi o hlakotsoe ka katleho</value>
+  </data>
+  <data name="Error.DeleteUser" xml:space="preserve">
+    <value>Phoso ea ho hlakola mosebelisi</value>
+  </data>
+  <data name="LogoutEverywhere.Text" xml:space="preserve">
+    <value>Logout hohle?</value>
+  </data>
+  <data name="LogoutEverywhere.HelpText" xml:space="preserve">
+    <value>Na u batla hore basebelisi ba tlohe sebokeng se seng le se seng se sebetsang ho sesebelisoa sefe kapa sefe, kapa feela seboka sa bona sa hajoale?</value>
+  </data>
+  <data name="AllowHostRole.Text" xml:space="preserve">
+    <value>Lumella karolo ea moamoheli?</value>
+  </data>
+  <data name="AllowHostRole.HelpText" xml:space="preserve">
+    <value>Bontša hore na mesebetsi ea moamoheli e tšehetsoa ke mofani oa boitsebahatso. Ka kopo sebelisa tlhokomelo ka khetho ena kaha e lumella mosebelisi oa moamoheli ho tsamaisa sebaka se seng le se seng sa marang-rang ka har&apos;a ho kenya ha hau.</value>
+  </data>
+</root>
