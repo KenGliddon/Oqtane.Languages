@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Icon.AccountLogin" xml:space="preserve">
+    <value>Ngena kwi-akhawunti</value>
+  </data>
+  <data name="Icon.AccountLogout" xml:space="preserve">
+    <value>Ukuphuma kwe-akhawunti</value>
+  </data>
+  <data name="Icon.ActionRedo" xml:space="preserve">
+    <value>Isenzo senze kwakhona</value>
+  </data>
+  <data name="Icon.ActionUndo" xml:space="preserve">
+    <value>Isenzo sokubuyisela obekwenziwe.</value>
+  </data>
+  <data name="Icon.AlignCenter" xml:space="preserve">
+    <value>Lungelelanisa iziko</value>
+  </data>
+  <data name="Icon.AlignLeft" xml:space="preserve">
+    <value>Lungelelanisa ngasekhohlo</value>
+  </data>
+  <data name="Icon.AlignRight" xml:space="preserve">
+    <value>Lungelelanisa ngasekunene</value>
+  </data>
+  <data name="Icon.Aperture" xml:space="preserve">
+    <value>Ukuvula</value>
+  </data>
+  <data name="Icon.ArrowBottom" xml:space="preserve">
+    <value>Isalathisi esisezantsi</value>
+  </data>
+  <data name="Icon.ArrowCircleBottom" xml:space="preserve">
+    <value>Isalathisi seSangqa esisezantsi</value>
+  </data>
+  <data name="Icon.ArrowCircleLeft" xml:space="preserve">
+    <value>Isangqa sesalathisi ekhohlo</value>
+  </data>
+  <data name="Icon.ArrowCircleRight" xml:space="preserve">
+    <value>Isalathisi sesangqa sasekunene</value>
+  </data>
+  <data name="Icon.ArrowCircleTop" xml:space="preserve">
+    <value>Isalathisi esiphezulu sesangqa</value>
+  </data>
+  <data name="Icon.ArrowLeft" xml:space="preserve">
+    <value>Isalathisi sasekhohlo</value>
+  </data>
+  <data name="Icon.ArrowRight" xml:space="preserve">
+    <value>Utolo lwasekunene</value>
+  </data>
+  <data name="Icon.ArrowThickBottom" xml:space="preserve">
+    <value>Isalathisi esingqindilili emazantsi</value>
+  </data>
+  <data name="Icon.ArrowThickLeft" xml:space="preserve">
+    <value>Isalathisi esingqindilili ekhohlo</value>
+  </data>
+  <data name="Icon.ArrowThickRight" xml:space="preserve">
+    <value>Ukwalathisi kungqingqwana ekunene</value>
+  </data>
+  <data name="Icon.ArrowThickTop" xml:space="preserve">
+    <value>Isalathisi esiphezulu esingqindilili</value>
+  </data>
+  <data name="Icon.ArrowTop" xml:space="preserve">
+    <value>Umphezulu wesalathisi</value>
+  </data>
+  <data name="Icon.AudioSpectrum" xml:space="preserve">
+    <value>I-Spectrum yesandi</value>
+  </data>
+  <data name="Icon.Audio" xml:space="preserve">
+    <value>Isandi</value>
+  </data>
+  <data name="Icon.Badge" xml:space="preserve">
+    <value>Ibheji</value>
+  </data>
+  <data name="Icon.Ban" xml:space="preserve">
+    <value>Ukuvalwa</value>
+  </data>
+  <data name="Icon.BarChart" xml:space="preserve">
+    <value>Itshathi yeBar</value>
+  </data>
+  <data name="Icon.Basket" xml:space="preserve">
+    <value>Ibhaskithi</value>
+  </data>
+  <data name="Icon.BatteryEmpty" xml:space="preserve">
+    <value>Ibhetri ayinanto</value>
+  </data>
+  <data name="Icon.BatteryFull" xml:space="preserve">
+    <value>Ibhetri igcwele</value>
+  </data>
+  <data name="Icon.Beaker" xml:space="preserve">
+    <value>I-Beaker</value>
+  </data>
+  <data name="Icon.Bell" xml:space="preserve">
+    <value>Intsimbi</value>
+  </data>
+  <data name="Icon.Bluetooth" xml:space="preserve">
+    <value>I-Bluetooth</value>
+  </data>
+  <data name="Icon.Bold" xml:space="preserve">
+    <value>Isibindi</value>
+  </data>
+  <data name="Icon.Bolt" xml:space="preserve">
+    <value>I-Bolt</value>
+  </data>
+  <data name="Icon.Book" xml:space="preserve">
+    <value>Incwadi</value>
+  </data>
+  <data name="Icon.Bookmark" xml:space="preserve">
+    <value>Into yokuphawula</value>
+  </data>
+  <data name="Icon.Box" xml:space="preserve">
+    <value>Ibhokisi</value>
+  </data>
+  <data name="Icon.Briefcase" xml:space="preserve">
+    <value>Ingxowa-mali</value>
+  </data>
+  <data name="Icon.BritishPound" xml:space="preserve">
+    <value>Iponti yaseBrithani</value>
+  </data>
+  <data name="Icon.Browser" xml:space="preserve">
+    <value>Isikhangeli</value>
+  </data>
+  <data name="Icon.Brush" xml:space="preserve">
+    <value>Ibrashi</value>
+  </data>
+  <data name="Icon.Bug" xml:space="preserve">
+    <value>I-Bug</value>
+  </data>
+  <data name="Icon.Bullhorn" xml:space="preserve">
+    <value>I-Bullhorn</value>
+  </data>
+  <data name="Icon.Calculator" xml:space="preserve">
+    <value>Ikhaltyuleyitha</value>
+  </data>
+  <data name="Icon.Calendar" xml:space="preserve">
+    <value>Ikhalenda</value>
+  </data>
+  <data name="Icon.CameraSlr" xml:space="preserve">
+    <value>Ikhamera ye-Slr</value>
+  </data>
+  <data name="Icon.CaretBottom" xml:space="preserve">
+    <value>Ezantsi kweCaret</value>
+  </data>
+  <data name="Icon.CaretLeft" xml:space="preserve">
+    <value>I-Caret ekhohlo</value>
+  </data>
+  <data name="Icon.CaretRight" xml:space="preserve">
+    <value>kwik kwik</value>
+  </data>
+  <data name="Icon.CaretTop" xml:space="preserve">
+    <value>Umphezulu weCaret</value>
+  </data>
+  <data name="Icon.Cart" xml:space="preserve">
+    <value>Inqwelo</value>
+  </data>
+  <data name="Icon.Chat" xml:space="preserve">
+    <value>Incoko</value>
+  </data>
+  <data name="Icon.Check" xml:space="preserve">
+    <value>Khangela</value>
+  </data>
+  <data name="Icon.ChevronBottom" xml:space="preserve">
+    <value>I-Chevron Bottom</value>
+  </data>
+  <data name="Icon.ChevronLeft" xml:space="preserve">
+    <value>I-Chevron ngasekhohlo</value>
+  </data>
+  <data name="Icon.ChevronRight" xml:space="preserve">
+    <value>I-Chevron ekunene</value>
+  </data>
+  <data name="Icon.ChevronTop" xml:space="preserve">
+    <value>I-Chevron Top</value>
+  </data>
+  <data name="Icon.CircleCheck" xml:space="preserve">
+    <value>Ukukhangela isangqa</value>
+  </data>
+  <data name="Icon.CircleX" xml:space="preserve">
+    <value>Isangqa X</value>
+  </data>
+  <data name="Icon.Clipboard" xml:space="preserve">
+    <value>Ibhodi eqhotyoshwayo</value>
+  </data>
+  <data name="Icon.Clock" xml:space="preserve">
+    <value>Iwotshi</value>
+  </data>
+  <data name="Icon.CloudDownload" xml:space="preserve">
+    <value>Ukukhuphela ilifu</value>
+  </data>
+  <data name="Icon.CloudUpload" xml:space="preserve">
+    <value>Ukulayishwa kwelifu</value>
+  </data>
+  <data name="Icon.Cloud" xml:space="preserve">
+    <value>Ilifu</value>
+  </data>
+  <data name="Icon.Cloudy" xml:space="preserve">
+    <value>Amafu</value>
+  </data>
+  <data name="Icon.Code" xml:space="preserve">
+    <value>Ikhowudi</value>
+  </data>
+  <data name="Icon.Cog" xml:space="preserve">
+    <value>I-Cog</value>
+  </data>
+  <data name="Icon.CollapseDown" xml:space="preserve">
+    <value>Ukuwa Phantsi</value>
+  </data>
+  <data name="Icon.CollapseLeft" xml:space="preserve">
+    <value>Ukuwa ngasekhohlo</value>
+  </data>
+  <data name="Icon.CollapseRight" xml:space="preserve">
+    <value>Ukuwa ngasekunene</value>
+  </data>
+  <data name="Icon.CollapseUp" xml:space="preserve">
+    <value>Ukuwa Phezulu</value>
+  </data>
+  <data name="Icon.Command" xml:space="preserve">
+    <value>Umyalelo</value>
+  </data>
+  <data name="Icon.CommentSquare" xml:space="preserve">
+    <value>Comment Square</value>
+  </data>
+  <data name="Icon.Compass" xml:space="preserve">
+    <value>Ikhampasi</value>
+  </data>
+  <data name="Icon.Contrast" xml:space="preserve">
+    <value>Umahluko</value>
+  </data>
+  <data name="Icon.Copywriting" xml:space="preserve">
+    <value>Ukubhalwa kweKopi</value>
+  </data>
+  <data name="Icon.CreditCard" xml:space="preserve">
+    <value>Ikhadi letyala</value>
+  </data>
+  <data name="Icon.Crop" xml:space="preserve">
+    <value>Isivuno</value>
+  </data>
+  <data name="Icon.Dashboard" xml:space="preserve">
+    <value>Ideshibhodi</value>
+  </data>
+  <data name="Icon.DataTransferDownload" xml:space="preserve">
+    <value>Ukukhuphela ukuhanjiswa kwedatha</value>
+  </data>
+  <data name="Icon.DataTransferUpload" xml:space="preserve">
+    <value>Ukulayishwa kwedatha</value>
+  </data>
+  <data name="Icon.Delete" xml:space="preserve">
+    <value>Cima</value>
+  </data>
+  <data name="Icon.Dial" xml:space="preserve">
+    <value>Ukucofa</value>
+  </data>
+  <data name="Icon.Document" xml:space="preserve">
+    <value>Uxwebhu</value>
+  </data>
+  <data name="Icon.Dollar" xml:space="preserve">
+    <value>Idola</value>
+  </data>
+  <data name="Icon.DoubleQuoteSansLeft" xml:space="preserve">
+    <value>Double Quote Sans Left</value>
+  </data>
+  <data name="Icon.DoubleQuoteSansRight" xml:space="preserve">
+    <value>Double Quote Sans Ilungelo</value>
+  </data>
+  <data name="Icon.DoubleQuoteSerifLeft" xml:space="preserve">
+    <value>I-Serif ecaphulwa kabini ekhohlo</value>
+  </data>
+  <data name="Icon.DoubleQuoteSerifRight" xml:space="preserve">
+    <value>Double Quote Serif Right</value>
+  </data>
+  <data name="Icon.Droplet" xml:space="preserve">
+    <value>I-Droplet</value>
+  </data>
+  <data name="Icon.Eject" xml:space="preserve">
+    <value>Khupha</value>
+  </data>
+  <data name="Icon.Elevator" xml:space="preserve">
+    <value>I-elevator</value>
+  </data>
+  <data name="Icon.Ellipses" xml:space="preserve">
+    <value>I-Ellipses</value>
+  </data>
+  <data name="Icon.EnvelopeClosed" xml:space="preserve">
+    <value>Imvulophu ivaliwe</value>
+  </data>
+  <data name="Icon.EnvelopeOpen" xml:space="preserve">
+    <value>Ivulophu Ivuliwe</value>
+  </data>
+  <data name="Icon.Euro" xml:space="preserve">
+    <value>I-Euro</value>
+  </data>
+  <data name="Icon.Excerpt" xml:space="preserve">
+    <value>Isicatshulwa</value>
+  </data>
+  <data name="Icon.ExpandDown" xml:space="preserve">
+    <value>Yandisa ezantsi</value>
+  </data>
+  <data name="Icon.ExpandLeft" xml:space="preserve">
+    <value>Yandisa ekhohlo</value>
+  </data>
+  <data name="Icon.ExpandRight" xml:space="preserve">
+    <value>Yandisa Ekunene</value>
+  </data>
+  <data name="Icon.ExpandUp" xml:space="preserve">
+    <value>Yandisa phezulu</value>
+  </data>
+  <data name="Icon.ExternalLink" xml:space="preserve">
+    <value>Ikhonkco langaphandle</value>
+  </data>
+  <data name="Icon.Eye" xml:space="preserve">
+    <value>Iliso</value>
+  </data>
+  <data name="Icon.Eyedropper" xml:space="preserve">
+    <value>I-Eyedropper</value>
+  </data>
+  <data name="Icon.File" xml:space="preserve">
+    <value>Ifayile</value>
+  </data>
+  <data name="Icon.Fire" xml:space="preserve">
+    <value>Umlilo</value>
+  </data>
+  <data name="Icon.Flag" xml:space="preserve">
+    <value>Iflegi</value>
+  </data>
+  <data name="Icon.Flash" xml:space="preserve">
+    <value>Ukukhanya</value>
+  </data>
+  <data name="Icon.Folder" xml:space="preserve">
+    <value>Isiqulathi seefayili</value>
+  </data>
+  <data name="Icon.Fork" xml:space="preserve">
+    <value>Ifolokhwe</value>
+  </data>
+  <data name="Icon.FullscreenEnter" xml:space="preserve">
+    <value>Ngenisa kwiskrini esipheleleyo</value>
+  </data>
+  <data name="Icon.FullscreenExit" xml:space="preserve">
+    <value>Ukuphuma kwiscreen esigcweleyo</value>
+  </data>
+  <data name="Icon.Globe" xml:space="preserve">
+    <value>Iglobhu</value>
+  </data>
+  <data name="Icon.Graph" xml:space="preserve">
+    <value>Igrafu</value>
+  </data>
+  <data name="Icon.GridFourUp" xml:space="preserve">
+    <value>Igridi yesine phezulu</value>
+  </data>
+  <data name="Icon.GridThreeUp" xml:space="preserve">
+    <value>Igridi yesithathu phezulu</value>
+  </data>
+  <data name="Icon.GridTwoUp" xml:space="preserve">
+    <value>Igridi yesibini phezulu</value>
+  </data>
+  <data name="Icon.HardDrive" xml:space="preserve">
+    <value>I-hard drive</value>
+  </data>
+  <data name="Icon.Header" xml:space="preserve">
+    <value>Okubhalwe ngentloko</value>
+  </data>
+  <data name="Icon.Headphones" xml:space="preserve">
+    <value>Ii-headphone</value>
+  </data>
+  <data name="Icon.Heart" xml:space="preserve">
+    <value>Intliziyo</value>
+  </data>
+  <data name="Icon.Home" xml:space="preserve">
+    <value>Ikhaya</value>
+  </data>
+  <data name="Icon.Image" xml:space="preserve">
+    <value>Umfanekiso</value>
+  </data>
+  <data name="Icon.Inbox" xml:space="preserve">
+    <value>Ibhokisi engenayo</value>
+  </data>
+  <data name="Icon.Infinity" xml:space="preserve">
+    <value>Ukungapheliyo</value>
+  </data>
+  <data name="Icon.Info" xml:space="preserve">
+    <value>Ulwazi</value>
+  </data>
+  <data name="Icon.Italic" xml:space="preserve">
+    <value>I-Italic</value>
+  </data>
+  <data name="Icon.JustifyCenter" xml:space="preserve">
+    <value>Iziko lokuThethelela</value>
+  </data>
+  <data name="Icon.JustifyLeft" xml:space="preserve">
+    <value>Thethelela ekhohlo</value>
+  </data>
+  <data name="Icon.JustifyRight" xml:space="preserve">
+    <value>Thethelela Ilungelo</value>
+  </data>
+  <data name="Icon.Key" xml:space="preserve">
+    <value>Isitshixo</value>
+  </data>
+  <data name="Icon.Laptop" xml:space="preserve">
+    <value>Ilaptop</value>
+  </data>
+  <data name="Icon.Layers" xml:space="preserve">
+    <value>Iileya</value>
+  </data>
+  <data name="Icon.Lightbulb" xml:space="preserve">
+    <value>Ibhalbhu yokukhanya</value>
+  </data>
+  <data name="Icon.LinkBroken" xml:space="preserve">
+    <value>Ikhonkco lophukile</value>
+  </data>
+  <data name="Icon.LinkIntact" xml:space="preserve">
+    <value>Unxulumaniso olungaguquguqukiyo</value>
+  </data>
+  <data name="Icon.ListRich" xml:space="preserve">
+    <value>Uluhlu lwezityebi</value>
+  </data>
+  <data name="Icon.List" xml:space="preserve">
+    <value>Uluhlu</value>
+  </data>
+  <data name="Icon.Location" xml:space="preserve">
+    <value>Indawo</value>
+  </data>
+  <data name="Icon.LockLocked" xml:space="preserve">
+    <value>Isitshixo sitshixiwe</value>
+  </data>
+  <data name="Icon.LockUnlocked" xml:space="preserve">
+    <value>Isitshixo asitshixwanga</value>
+  </data>
+  <data name="Icon.LoopCircular" xml:space="preserve">
+    <value>I-Loop yeSetyhula</value>
+  </data>
+  <data name="Icon.LoopSquare" xml:space="preserve">
+    <value>Isakwere seSethi yeSethi</value>
+  </data>
+  <data name="Icon.Loop" xml:space="preserve">
+    <value>Iluphu</value>
+  </data>
+  <data name="Icon.MagnifyingGlass" xml:space="preserve">
+    <value>Iglasi yokukhulisa</value>
+  </data>
+  <data name="Icon.MapMarker" xml:space="preserve">
+    <value>Isiphawuli seMephu</value>
+  </data>
+  <data name="Icon.Map" xml:space="preserve">
+    <value>Imephu</value>
+  </data>
+  <data name="Icon.MediaPause" xml:space="preserve">
+    <value>Ukunqumama kwemidiya</value>
+  </data>
+  <data name="Icon.MediaPlay" xml:space="preserve">
+    <value>Umdlalo weendaba</value>
+  </data>
+  <data name="Icon.MediaRecord" xml:space="preserve">
+    <value>Irekhodi leMithombo yeendaba</value>
+  </data>
+  <data name="Icon.MediaSkipBackward" xml:space="preserve">
+    <value>Imithombo yeendaba tsiba ngasemva</value>
+  </data>
+  <data name="Icon.MediaSkipForward" xml:space="preserve">
+    <value>Imithombo yeendaba Tsibela phambili</value>
+  </data>
+  <data name="Icon.MediaStepBackward" xml:space="preserve">
+    <value>Imithombo yeendaba ibuyela umva</value>
+  </data>
+  <data name="Icon.MediaStepForward" xml:space="preserve">
+    <value>Inyathelo leendaba eliya phambili</value>
+  </data>
+  <data name="Icon.MediaStop" xml:space="preserve">
+    <value>Ukuyeka imithombo yeendaba</value>
+  </data>
+  <data name="Icon.MedicalCross" xml:space="preserve">
+    <value>Umnqamlezo wezonyango</value>
+  </data>
+  <data name="Icon.Menu" xml:space="preserve">
+    <value>Imenyu</value>
+  </data>
+  <data name="Icon.Microphone" xml:space="preserve">
+    <value>Imakrofoni</value>
+  </data>
+  <data name="Icon.Minus" xml:space="preserve">
+    <value>Ngaphandle</value>
+  </data>
+  <data name="Icon.Monitor" xml:space="preserve">
+    <value>Beka iliso</value>
+  </data>
+  <data name="Icon.Moon" xml:space="preserve">
+    <value>Inyanga</value>
+  </data>
+  <data name="Icon.Move" xml:space="preserve">
+    <value>Hambisa</value>
+  </data>
+  <data name="Icon.MusicalNote" xml:space="preserve">
+    <value>Inqaku lomculo</value>
+  </data>
+  <data name="Icon.Paperclip" xml:space="preserve">
+    <value>Ikliphu yephepha</value>
+  </data>
+  <data name="Icon.Pencil" xml:space="preserve">
+    <value>Ipensile</value>
+  </data>
+  <data name="Icon.People" xml:space="preserve">
+    <value>Abantu</value>
+  </data>
+  <data name="Icon.Person" xml:space="preserve">
+    <value>Umntu</value>
+  </data>
+  <data name="Icon.Phone" xml:space="preserve">
+    <value>Ifowuni</value>
+  </data>
+  <data name="Icon.PieChart" xml:space="preserve">
+    <value>Itshathi yePie</value>
+  </data>
+  <data name="Icon.Pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="Icon.PlayCircle" xml:space="preserve">
+    <value>Dlala isangqa</value>
+  </data>
+  <data name="Icon.Plus" xml:space="preserve">
+    <value>Kunye</value>
+  </data>
+  <data name="Icon.PowerStandby" xml:space="preserve">
+    <value>Ukulinda kwamandla</value>
+  </data>
+  <data name="Icon.Print" xml:space="preserve">
+    <value>Shicilela</value>
+  </data>
+  <data name="Icon.Project" xml:space="preserve">
+    <value>Iprojekthi</value>
+  </data>
+  <data name="Icon.Pulse" xml:space="preserve">
+    <value>Ukubetha</value>
+  </data>
+  <data name="Icon.PuzzlePiece" xml:space="preserve">
+    <value>Isiqwenga sePuzzle</value>
+  </data>
+  <data name="Icon.QuestionMark" xml:space="preserve">
+    <value>Uphawu lombuzo</value>
+  </data>
+  <data name="Icon.Rain" xml:space="preserve">
+    <value>Imvula</value>
+  </data>
+  <data name="Icon.Random" xml:space="preserve">
+    <value>Okungahleliwe</value>
+  </data>
+  <data name="Icon.Reload" xml:space="preserve">
+    <value>Phinda ufake</value>
+  </data>
+  <data name="Icon.ResizeBoth" xml:space="preserve">
+    <value>Tshintsha ubungakanani bobabini</value>
+  </data>
+  <data name="Icon.ResizeHeight" xml:space="preserve">
+    <value>Tshintsha ubungakanani bobude</value>
+  </data>
+  <data name="Icon.ResizeWidth" xml:space="preserve">
+    <value>Tshintsha ububanzi</value>
+  </data>
+  <data name="Icon.RssAlt" xml:space="preserve">
+    <value>I-Rss Alt</value>
+  </data>
+  <data name="Icon.Rss" xml:space="preserve">
+    <value>I-Rss</value>
+  </data>
+  <data name="Icon.Script" xml:space="preserve">
+    <value>Iskripthi</value>
+  </data>
+  <data name="Icon.ShareBoxed" xml:space="preserve">
+    <value>Yabelana ngebhokisi</value>
+  </data>
+  <data name="Icon.Share" xml:space="preserve">
+    <value>Yabelana</value>
+  </data>
+  <data name="Icon.Shield" xml:space="preserve">
+    <value>Ikhaka</value>
+  </data>
+  <data name="Icon.Signal" xml:space="preserve">
+    <value>Umqondiso</value>
+  </data>
+  <data name="Icon.Signpost" xml:space="preserve">
+    <value>Umqondiso</value>
+  </data>
+  <data name="Icon.SortAscending" xml:space="preserve">
+    <value>Hlela Ukunyuka</value>
+  </data>
+  <data name="Icon.SortDescending" xml:space="preserve">
+    <value>Hlela ukuhla</value>
+  </data>
+  <data name="Icon.Spreadsheet" xml:space="preserve">
+    <value>Ispredishithi</value>
+  </data>
+  <data name="Icon.Star" xml:space="preserve">
+    <value>Inkwenkwezi</value>
+  </data>
+  <data name="Icon.Sun" xml:space="preserve">
+    <value>Ilanga</value>
+  </data>
+  <data name="Icon.Tablet" xml:space="preserve">
+    <value>Ithebhulethi</value>
+  </data>
+  <data name="Icon.Tag" xml:space="preserve">
+    <value>Ithegi</value>
+  </data>
+  <data name="Icon.Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Icon.Target" xml:space="preserve">
+    <value>Ithagethi</value>
+  </data>
+  <data name="Icon.Task" xml:space="preserve">
+    <value>Umsebenzi</value>
+  </data>
+  <data name="Icon.Terminal" xml:space="preserve">
+    <value>Itheminali</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>Umbhalo</value>
+  </data>
+  <data name="Icon.ThumbDown" xml:space="preserve">
+    <value>Thumb Down</value>
+  </data>
+  <data name="Icon.ThumbUp" xml:space="preserve">
+    <value>Thumb Up</value>
+  </data>
+  <data name="Icon.Timer" xml:space="preserve">
+    <value>Ixesha</value>
+  </data>
+  <data name="Icon.Transfer" xml:space="preserve">
+    <value>Ukudluliselwa</value>
+  </data>
+  <data name="Icon.Trash" xml:space="preserve">
+    <value>Inkunkuma</value>
+  </data>
+  <data name="Icon.Underline" xml:space="preserve">
+    <value>Ukugxininisa</value>
+  </data>
+  <data name="Icon.VerticalAlignBottom" xml:space="preserve">
+    <value>Ulungelelanise ngokuthe nkqo emazantsi</value>
+  </data>
+  <data name="Icon.VerticalAlignCenter" xml:space="preserve">
+    <value>Iziko Lolungelelaniso ngokuthe nkqo</value>
+  </data>
+  <data name="Icon.VerticalAlignTop" xml:space="preserve">
+    <value>Ulungelelanise ngokuthe nkqo umphezulu</value>
+  </data>
+  <data name="Icon.Video" xml:space="preserve">
+    <value>Ividiyo</value>
+  </data>
+  <data name="Icon.VolumeHigh" xml:space="preserve">
+    <value>Isandi esiphezulu</value>
+  </data>
+  <data name="Icon.VolumeLow" xml:space="preserve">
+    <value>Isandi esisezantsi</value>
+  </data>
+  <data name="Icon.VolumeOff" xml:space="preserve">
+    <value>Ubungakanani obucinyiweyo</value>
+  </data>
+  <data name="Icon.Warning" xml:space="preserve">
+    <value>Isilumkiso</value>
+  </data>
+  <data name="Icon.Wifi" xml:space="preserve">
+    <value>I-Wifi</value>
+  </data>
+  <data name="Icon.Wrench" xml:space="preserve">
+    <value>I-Wrench</value>
+  </data>
+  <data name="Icon.X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Icon.Yen" xml:space="preserve">
+    <value>I-Yen</value>
+  </data>
+  <data name="Icon.ZoomIn" xml:space="preserve">
+    <value>Yandisa ngaphakathi</value>
+  </data>
+  <data name="Icon.ZoomOut" xml:space="preserve">
+    <value>Yandisa ngaphandle</value>
+  </data>
+</root>

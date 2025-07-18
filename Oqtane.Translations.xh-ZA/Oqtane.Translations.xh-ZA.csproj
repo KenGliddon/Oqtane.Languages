@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Oqtane.Translation.xh-ZA</AssemblyName>
+    <RootNamespace>Oqtane.Client</RootNamespace>
+    <Culture>xh-ZA</Culture>
+    <OutputType>Library</OutputType>
+    <NoCode>true</NoCode>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Oqtane.Translation.xhZA</PackageId>
+    <Version>6.1.3</Version>
+    <Authors>Spot</Authors>
+    <Description>Language resources for Oqtane Framework (xh-ZA)</Description>
+    <Copyright>Spot</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/oqtane/oqtane.framework</PackageProjectUrl>
+    <PackageTags>oqtane language pack</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="*.xh-ZA.resx" LogicalName="Oqtane.Client.%(Filename).resources" />
+    <EmbeddedResource Include="**/*. xh-ZA.resx" LogicalName="Oqtane.Client.%(RecursiveDir)%(Filename).resources" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>

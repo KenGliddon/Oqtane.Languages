@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Igama: </value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>Khetha isikhongozeli</value>
+  </data>
+  <data name="Error.Theme.LoadPane" xml:space="preserve">
+    <value>Kwenzeke impazamo ngelixa kufakwa ubume begilasi yefestile somxholo</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>Isikhongozeli esimiselweyo: </value>
+  </data>
+  <data name="DefaultAdminContainer" xml:space="preserve">
+    <value>Isikhongozeli soMlawuli esiMiselweyo</value>
+  </data>
+  <data name="Smtp.Required.EnableNotificationJob" xml:space="preserve">
+    <value>* Nceda uqaphele ukuba i-SMTP ifuna umsebenzi wesaziso ukuba unikezelwe kwimisebenzi ecwangcisiweyo</value>
+  </data>
+  <data name="Smtp.TestConfig" xml:space="preserve">
+    <value>Uvavanyo lokumiselwa kwe-SMTP</value>
+  </data>
+  <data name="Success.Settings.SaveSite" xml:space="preserve">
+    <value>Imimiselo yeSayithi igciniwe</value>
+  </data>
+  <data name="Message.Aliases.Taken" xml:space="preserve">
+    <value>Igama elimele likhankanyiwe esele lisetyenzisiwe kwenye indawo</value>
+  </data>
+  <data name="Message.Required.SiteName" xml:space="preserve">
+    <value>Kufuneka unikeze igama lendawo, i-alias, kunye nomxholo ongagqibekanga / isikhongozeli</value>
+  </data>
+  <data name="Error.SaveSite" xml:space="preserve">
+    <value>Impazamo yokugcina indawo</value>
+  </data>
+  <data name="Info.Smtp.SaveSettings" xml:space="preserve">
+    <value>Izicwangciso ze-SMTP zigciniwe kwaye umyalezo uthunyelwe kwidilesi ye-imeyile enxulumene neakhawunti yakho yomsebenzisi ... Nceda ulinde imizuzwana embalwa ukuhanjiswa. Ukuba awuyifumani i-imeyile, nceda ujonge umsebenzi wesaziso kwimisebenzi ecwangcisiweyo ngayo nayiphi na inkcukacha.</value>
+  </data>
+  <data name="Error.Smtp.TestConfig" xml:space="preserve">
+    <value>Impazamo yokuvavanya ukumiselwa kwenkqubo ye-SMTP</value>
+  </data>
+  <data name="Message.Required.Smtp" xml:space="preserve">
+    <value>Kufuneka ucacise umququzeleli we-SMTP, isiqhagamsheli, kunye nomthumeli</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>Ngenisa igama lendawo</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>Igama lesiseko sedatha esisetyenzisiweyo kwisayithi. Qaphela ukuba eli ayilogama ledatha ebonakalayo, kodwa igama lomqeshi elisetyenziswa ngaphakathi kwesakhelo sokuchonga isiseko sedatha.</value>
+  </data>
+  <data name="Aliases.HelpText" xml:space="preserve">
+    <value>Ii-URL zewebhusayithi. Oku kungabandakanya amagama athambeka (ie. domain.com), imimandla esezantsi (ie. sub.domain.com) okanye iincwadi ezineenkcukacha ezibonakalayo (ie. domain.com/folder).</value>
+  </data>
+  <data name="IsDeleted.HelpText" xml:space="preserve">
+    <value>Ngaba le ndawo icinyiwe?</value>
+  </data>
+  <data name="Logo.HelpText" xml:space="preserve">
+    <value>Cacisa ilogo yendawo</value>
+  </data>
+  <data name="FavoriteIcon.HelpText" xml:space="preserve">
+    <value>Cacisa i-favicon. Ifomathi yomfanekiso kufuneka ibe li-16×16, 32×32, 48×48, okanye 64×64 pixels ngobungakanani, kunye ne-8-bit, i-24-bit, okanye i-32-bit kubunzulu bombala. Ifomathi yomfanekiso kufuneka ibe yi-ICO, i-PNG, okanye i-GIF.</value>
+  </data>
+  <data name="DefaultTheme.HelpText" xml:space="preserve">
+    <value>Khetha umxholo omiselweyo wendawo</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>Khetha isikhongozeli esimiselweyo sendawo</value>
+  </data>
+  <data name="DefaultAdminContainer.HelpText" xml:space="preserve">
+    <value>Khetha isikhongozeli solawulo esimiselweyo sendawo</value>
+  </data>
+  <data name="Host.HelpText" xml:space="preserve">
+    <value>Faka igama lomququzeleli weseva ye-SMTP</value>
+  </data>
+  <data name="Port.HelpText" xml:space="preserve">
+    <value>Ngenisa inombolo ye-port yeseva ye-SMTP. Nceda uqaphele ukuba le ntsimi iyafuneka ukuba unikezele ngegama lombuki zindwendwe.</value>
+  </data>
+  <data name="UseSsl.HelpText" xml:space="preserve">
+    <value>Cacisa ukuba ngaba i-SSL iyafuneka na kwiseva yakho ye-SMTP</value>
+  </data>
+  <data name="SmtpUsername.HelpText" xml:space="preserve">
+    <value>Ngenisa igama lomsebenzisi we-akhawunti yakho ye-SMTP</value>
+  </data>
+  <data name="SmtpPassword.HelpText" xml:space="preserve">
+    <value>Ngenisa i-password ye-akhawunti yakho ye-SMTP</value>
+  </data>
+  <data name="SmtpSender.HelpText" xml:space="preserve">
+    <value>Ngenisa i-imeyile apho ii-imeyile ziya kuthunyelwa khona. Nceda uqaphele ukuba le dilesi ye-imeyile inokufuna ukugunyaziswa kwiseva ye-SMTP.</value>
+  </data>
+  <data name="EnablePWA.HelpText" xml:space="preserve">
+    <value>Khetha ukuba ungathanda ukuba le ndawo ifumaneke njengesicelo seWebhu esiQhubekayo (PWA)</value>
+  </data>
+  <data name="PwaApplicationIcon.HelpText" xml:space="preserve">
+    <value>Quka umfanekiso ongumqondiso wenkqubo ye-PWA yakho. Kufuneka ibe yi-PNG eneepikseli ezili-192 X 192 kubukhulu.</value>
+  </data>
+  <data name="PwaSplashIcon.HelpText" xml:space="preserve">
+    <value>Quka umfanekiso ongumqondiso wokutshiza kwi-PWA yakho. Kufuneka ibe yi-PNG eyi-pixels ezingama-512 X 512 ngobukhulu.</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>Isiseko sedatha: </value>
+  </data>
+  <data name="Aliases.Text" xml:space="preserve">
+    <value>Ii-urls:</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>Icinyiwe? </value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>Ilogo: </value>
+  </data>
+  <data name="FavoriteIcon.Text" xml:space="preserve">
+    <value>I-Favicon: </value>
+  </data>
+  <data name="DefaultTheme.Text" xml:space="preserve">
+    <value>Umxholo Omiselweyo: </value>
+  </data>
+  <data name="DefaultAdminContainer.Text" xml:space="preserve">
+    <value>Isikhongozeli soLawulo esiMiselweyo: </value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Umninimzi: </value>
+  </data>
+  <data name="Port.Text" xml:space="preserve">
+    <value>Izibuko: </value>
+  </data>
+  <data name="UseSsl.Text" xml:space="preserve">
+    <value>I-SSL yenziwe: </value>
+  </data>
+  <data name="SmtpUsername.Text" xml:space="preserve">
+    <value>Igama lomsebenzisi: </value>
+  </data>
+  <data name="SmtpPassword.Text" xml:space="preserve">
+    <value>Igama eligqithisiweyo: </value>
+  </data>
+  <data name="SmtpSender.Text" xml:space="preserve">
+    <value>Umthumeli we-imeyili: </value>
+  </data>
+  <data name="EnablePWA.Text" xml:space="preserve">
+    <value>Ngaba yenziwe? </value>
+  </data>
+  <data name="PwaApplicationIcon.Text" xml:space="preserve">
+    <value>Uphawu lweApp: </value>
+  </data>
+  <data name="PwaSplashIcon.Text" xml:space="preserve">
+    <value>Umfanekiso ongumqondiso wokutshiza: </value>
+  </data>
+  <data name="Confirm.DeleteSite" xml:space="preserve">
+    <value>Uqinisekile ukuba unqwenela ukuyicima le ndawo?</value>
+  </data>
+  <data name="Error.DeleteSite" xml:space="preserve">
+    <value>Impazamo yokucima indawo</value>
+  </data>
+  <data name="Message.FailAuth.DeleteSite" xml:space="preserve">
+    <value>Awuvumelekanga ukuba ucime iwebhusayithi</value>
+  </data>
+  <data name="Theme.Select" xml:space="preserve">
+    <value>Khetha umxholo</value>
+  </data>
+  <data name="Hosting.Heading" xml:space="preserve">
+    <value>Imimiselo yeCandelo le-UI</value>
+  </data>
+  <data name="Prerender.HelpText" xml:space="preserve">
+    <value>Balula ukuba iinxalenye ezisebenzisanayo zimele zinikezele kwangaphambili ngeziphumo zazo kwiseva</value>
+  </data>
+  <data name="Prerender.Text" xml:space="preserve">
+    <value>Inguqulelo yangaphambili: </value>
+  </data>
+  <data name="RenderMode.HelpText" xml:space="preserve">
+    <value>Inkqubo yonikezelo olumiselweyo lwendawo</value>
+  </data>
+  <data name="RenderMode.Text" xml:space="preserve">
+    <value>Inkqubo yokunikezela:</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Khangela</value>
+  </data>
+  <data name="TenantInformation.Heading" xml:space="preserve">
+    <value>Isiseko sedatha</value>
+  </data>
+  <data name="PWASettings.Heading" xml:space="preserve">
+    <value>Imimiselo ye-PWA</value>
+  </data>
+  <data name="SMTPSettings.Heading" xml:space="preserve">
+    <value>Imimiselo ye-SMTP</value>
+  </data>
+  <data name="ConnectionString.Text" xml:space="preserve">
+    <value>Unxibelelwano:</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>Uhlobo:</value>
+  </data>
+  <data name="ConnectionString.HelpText" xml:space="preserve">
+    <value>Igama lomtya wonxulumano kwi-appsettings.json eliza kusetyenziselwa ukunxulumana nesiseko sedata</value>
+  </data>
+  <data name="Database.HelpText" xml:space="preserve">
+    <value>Uhlobo lwesiseko sedatha</value>
+  </data>
+  <data name="DeleteSite.Header" xml:space="preserve">
+    <value>Cima Indawo</value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>Cima Indawo</value>
+  </data>
+  <data name="DefaultAlias.HelpText" xml:space="preserve">
+    <value>I-alias engagqibekanga yesayithi. Izicelo ze-alias ezingagqibekanga ziya kuthunyelwa kwi-alias emiselweyo.</value>
+  </data>
+  <data name="DefaultAlias.Text" xml:space="preserve">
+    <value>Igama elimiselweyo: </value>
+  </data>
+  <data name="Aliases.Heading" xml:space="preserve">
+    <value>Ii-URL zeSayithi</value>
+  </data>
+  <data name="AliasName" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="AliasDefault" xml:space="preserve">
+    <value>Ukungagqibekanga?</value>
+  </data>
+  <data name="Confirm.Alias.Delete" xml:space="preserve">
+    <value>Uqinisekile ukuba ufuna ukucima {0}?</value>
+  </data>
+  <data name="HomePage.HelpText" xml:space="preserve">
+    <value>Select the home page for the site (to be used if there is no page with a path of '/')</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>Iphepha lasekhaya:</value>
+  </data>
+  <data name="SmtpRelay.HelpText" xml:space="preserve">
+    <value>Only specify this option if you have properly configured an SMTP Relay Service to route your outgoing mail. This option will send notifications from the user's email rather than from the Email Sender specified above.</value>
+  </data>
+  <data name="SmtpRelay.Text" xml:space="preserve">
+    <value>Relay iqwalaselwe?</value>
+  </data>
+  <data name="SiteMap.HelpText" xml:space="preserve">
+    <value>I-URL yemephu yesiza yale ndawo enokuthi ingeniswe kwiinjini zokukhangela ukuze zifakwe kwisalathiso. Imephu yesayithi igcinwa imizuzu emi-5 kwaye i-cache inokucinywa ngesandla.</value>
+  </data>
+  <data name="SiteMap.Text" xml:space="preserve">
+    <value>Imephu yeSayithi:</value>
+  </data>
+  <data name="Appearance.Heading" xml:space="preserve">
+    <value>Imbonakalo</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>Ngokuzikhethela faka umxholo oza kubandakanywa kwintloko yephepha (i-meta, ikhonkco, okanye iithegi zeskripthi)</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>Umxholo weNtloko:</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>Ngokuzikhethela faka umxholo oza kubandakanywa kumzimba wephepha (okt. iithegi zeskripthi)</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>Isiqulatho somzimba:</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>Isiqulatho sephepha</value>
+  </data>
+  <data name="SMTPEnabled.HelpText" xml:space="preserve">
+    <value>Balula ukuba i-SMTP yenziwe ukuba isebenze kule ndawo</value>
+  </data>
+  <data name="SMTPEnabled.Text" xml:space="preserve">
+    <value>Yenziwe ukuba isebenze?</value>
+  </data>
+  <data name="Version.HelpText" xml:space="preserve">
+    <value>Inguqulelo yendawo (yokufuduka komxholo wesayithi)</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>Inguqulelo:</value>
+  </data>
+  <data name="DeleteAlias.Text" xml:space="preserve">
+    <value>Cima</value>
+  </data>
+  <data name="DeleteAlias.Header" xml:space="preserve">
+    <value>Cima isimele</value>
+  </data>
+  <data name="SiteGuid.HelpText" xml:space="preserve">
+    <value>Isazisi esiyingqayizivele seSayithi</value>
+  </data>
+  <data name="SiteGuid.Text" xml:space="preserve">
+    <value>I-ID:</value>
+  </data>
+  <data name="Retention.HelpText" xml:space="preserve">
+    <value>Inani leentsuku zezaziso ekufuneka zigcinwe</value>
+  </data>
+  <data name="Retention.Text" xml:space="preserve">
+    <value>Ukugcinwa (iintsuku):</value>
+  </data>
+  <data name="HybridEnabled.HelpText" xml:space="preserve">
+    <value>Ichaza ukuba indawo inokudityaniswa nesicelo sangaphandle se-.NET MAUI hybrid</value>
+  </data>
+  <data name="HybridEnabled.Text" xml:space="preserve">
+    <value>Ngaba i-Hybrid inikwe amandla?</value>
+  </data>
+  <data name="Runtime.HelpText" xml:space="preserve">
+    <value>Inkqubo yokunikezela kwamalungu e-UI afuna ukusebenzisana</value>
+  </data>
+  <data name="Runtime.Text" xml:space="preserve">
+    <value>Ukusebenzisana:</value>
+  </data>
+  <data name="TextEditor.HelpText" xml:space="preserve">
+    <value>Khetha umhleli wombhalo wesayithi</value>
+  </data>
+  <data name="TextEditor.Text" xml:space="preserve">
+    <value>Umhleli wokubhaliweyo:</value>
+  </data>
+  <data name="Functionality" xml:space="preserve">
+    <value>Ukusebenza</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Inkqubo</value>
+  </data>
+  <data name="CookieConsent.HelpText" xml:space="preserve">
+    <value>Cacisa ukuba imvume yecookie inikwe amandla kule ndawo. Nceda uqaphele ukuba olu khetho kufuneka lusetyenziswe ngokudibeneyo nomxholo oxhasa imvume yekhukhi.</value>
+  </data>
+  <data name="CookieConsent.Text" xml:space="preserve">
+    <value>Imvume yeCookie:</value>
+  </data>
+  <data name="OptIn" xml:space="preserve">
+    <value>Ukungena (GDPR)</value>
+  </data>
+  <data name="OptOut" xml:space="preserve">
+    <value>Ukuphuma (CCPA)</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>Umxholo</value>
+  </data>
+  <data name="SiteMap.EvictCache" xml:space="preserve">
+    <value>Cima uvimba wethutyana</value>
+  </data>
+  <data name="Success.SiteMap.CacheEvicted" xml:space="preserve">
+    <value>Uvimba wethutyanisiweyo wemephu yendawo ucinyiwe</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>Ixesha lendawo:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>Misela ixesha lendawo</value>
+  </data>
+</root>

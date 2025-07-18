@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Confirm.User.Delete" xml:space="preserve">
+    <value>Uqinisekile ukuba ufuna ukucima {0}?</value>
+  </data>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>Yongeza umsebenzisi</value>
+  </data>
+  <data name="DeleteUser.Header" xml:space="preserve">
+    <value>Cima Umsebenzisi</value>
+  </data>
+  <data name="AllowRegistration.HelpText" xml:space="preserve">
+    <value>Ngaba ufuna ukuba iindwendwe ezingaziwa zikwazi ukubhalisa i-akhawunti kwi-site</value>
+  </data>
+  <data name="AllowRegistration.Text" xml:space="preserve">
+    <value>Vumela ubhaliso? </value>
+  </data>
+  <data name="RegisterUrl.HelpText" xml:space="preserve">
+    <value>Ngokuzikhethela ukubonelela nge-URL yobhaliso yesiko</value>
+  </data>
+  <data name="RegisterUrl.Text" xml:space="preserve">
+    <value>Bhalisa i-URL: </value>
+  </data>
+  <data name="ProfileUrl.HelpText" xml:space="preserve">
+    <value>Ngokukhetha ukubonelela nge-URL yenkangeleko yomsebenzisi esenzelwe yona</value>
+  </data>
+  <data name="ProfileUrl.Text" xml:space="preserve">
+    <value>I-URL yenkangeleko: </value>
+  </data>
+  <data name="Error.SaveSiteSettings" xml:space="preserve">
+    <value>Impazamo ekugcineni imimiselo</value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>Izicwangciso</value>
+  </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>Imimiselo egcinwe ngempumelelo</value>
+  </data>
+  <data name="Users.Heading" xml:space="preserve">
+    <value>Abasebenzisi</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>Cima</value>
+  </data>
+  <data name="EditUser.Text" xml:space="preserve">
+    <value>Hlela</value>
+  </data>
+  <data name="Roles.Text" xml:space="preserve">
+    <value>Iindima</value>
+  </data>
+  <data name="LockoutDuration.HelpText" xml:space="preserve">
+    <value>Inani lemizuzu umsebenzisi kufuneka atshixwe ngaphandle</value>
+  </data>
+  <data name="LockoutDuration.Text" xml:space="preserve">
+    <value>Ixesha lokutshixa:</value>
+  </data>
+  <data name="MaximumFailures.HelpText" xml:space="preserve">
+    <value>Elona nani liphezulu leenzame zokungena ngaphambi kokuba umsebenzisi atshixelwe ngaphandle</value>
+  </data>
+  <data name="MaximumFailures.Text" xml:space="preserve">
+    <value>Ubuninzi bokungaphumeleli:</value>
+  </data>
+  <data name="RequireDigit.HelpText" xml:space="preserve">
+    <value>Bonisa ukuba i-password kufuneka iqulathe umvo</value>
+  </data>
+  <data name="RequireDigit.Text" xml:space="preserve">
+    <value>Ngaba ufuna iDigit?</value>
+  </data>
+  <data name="RequiredLength.HelpText" xml:space="preserve">
+    <value>Obona bude bufutshane be-password</value>
+  </data>
+  <data name="RequiredLength.Text" xml:space="preserve">
+    <value>Ubude obuncinci:</value>
+  </data>
+  <data name="RequireLower.HelpText" xml:space="preserve">
+    <value>Bonisa ukuba i-password kufuneka iqulathe uphawu oluncinci na</value>
+  </data>
+  <data name="RequireLower.Text" xml:space="preserve">
+    <value>Ngaba ufuna i-Lowercase?</value>
+  </data>
+  <data name="RequirePunctuation.HelpText" xml:space="preserve">
+    <value>Bonisa ukuba i-password imele iqulathe uphawu olungeyi-alphanumeric (o.k.t. iziphumlisi zeziphumlisi)</value>
+  </data>
+  <data name="RequirePunctuation.Text" xml:space="preserve">
+    <value>Ngaba ufuna iziphumlisi?</value>
+  </data>
+  <data name="RequireUpper.HelpText" xml:space="preserve">
+    <value>Bonisa ukuba ii-password kufuneka ziqulathe oonombumba abancinci na</value>
+  </data>
+  <data name="RequireUpper.Text" xml:space="preserve">
+    <value>Ngaba ufuna i-uppercase?</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>Uqwalaselo luhlaziyiwe. Nceda ukhethe ukuqala kwakhona inkqubo ukuze olu tshintsho lusebenze.</value>
+  </data>
+  <data name="UniqueCharacters.HelpText" xml:space="preserve">
+    <value>Elona nani lincinci leempawu ezikhethekileyo ekufuneka ziqulethwe yi-password</value>
+  </data>
+  <data name="UniqueCharacters.Text" xml:space="preserve">
+    <value>Abalinganiswa abakhethekileyo:</value>
+  </data>
+  <data name="AllowSiteLogin.HelpText" xml:space="preserve">
+    <value>Ingaba uyafuna ukuvumela abasebenzisi ukuba bangene besebenzisa igama lomsebenzisi kunye negama lokugqitha elilawulwa ekuhlaleni kule ndawo? Qaphela ukuba kufuneka ukhubaze olu khetho kuphela ukuba sele uqwalasele ngempumelelo umnikezeli wokungena wangaphandle, kungenjalo ungazitshixa ngaphandle kwesiza.</value>
+  </data>
+  <data name="AllowSiteLogin.Text" xml:space="preserve">
+    <value>Vumela ukungena kwangaphakathi?</value>
+  </data>
+  <data name="Authority.HelpText" xml:space="preserve">
+    <value>I-URL yegunya okanye i-URL yomkhupheli enxulunyaniswa nomnikezeli wesazisi</value>
+  </data>
+  <data name="Authority.Text" xml:space="preserve">
+    <value>Igunya:</value>
+  </data>
+  <data name="AuthorizationUrl.HelpText" xml:space="preserve">
+    <value>Isiphelo sokufumana ikhowudi yokugunyazisa</value>
+  </data>
+  <data name="AuthorizationUrl.Text" xml:space="preserve">
+    <value>I-URL yoGunyaziso:</value>
+  </data>
+  <data name="ClientID.HelpText" xml:space="preserve">
+    <value>Isazisi somthengi somnikezeli wesazisi</value>
+  </data>
+  <data name="ClientID.Text" xml:space="preserve">
+    <value>I-ID yomxhasi:</value>
+  </data>
+  <data name="ClientSecret.HelpText" xml:space="preserve">
+    <value>Imfihlelo yomthengi womthengi</value>
+  </data>
+  <data name="ClientSecret.Text" xml:space="preserve">
+    <value>Imfihlo yomxhasi:</value>
+  </data>
+  <data name="CreateUsers.HelpText" xml:space="preserve">
+    <value>Ngaba ufuna ukuba abasebenzisi abatsha badalwe ngokuzenzekelayo? Ukuba ukhubaza olu khetho, abasebenzisi kufuneka sele bhalisiwe kwisiza ukuze bangene ngemvume yabo yangaphandle.</value>
+  </data>
+  <data name="CreateUsers.Text" xml:space="preserve">
+    <value>Yenza abasebenzisi abatsha?</value>
+  </data>
+  <data name="DomainFilter.HelpText" xml:space="preserve">
+    <value>Provide any email domain filter criteria (separated by commas). Domains to exclude should be prefixed with an exclamation point (!). For example 'microsoft.com,!hotmail.com' would include microsoft.com email addresses but not hotmail.com email addresses.</value>
+  </data>
+  <data name="DomainFilter.Text" xml:space="preserve">
+    <value>Isihluzi soMmandla:</value>
+  </data>
+  <data name="EmailClaimType.HelpText" xml:space="preserve">
+    <value>Optionally specify the type name of the email address claim provided by the identity provider. The typical value is 'email'.</value>
+  </data>
+  <data name="EmailClaimType.Text" xml:space="preserve">
+    <value>Ibango le-imeyile:</value>
+  </data>
+  <data name="ExternalLoginSettings.Heading" xml:space="preserve">
+    <value>Imimiselo yokungena yangaphandle</value>
+  </data>
+  <data name="LockoutSettings.Heading" xml:space="preserve">
+    <value>Imimiselo yokuTshixa</value>
+  </data>
+  <data name="MetadataUrl.HelpText" xml:space="preserve">
+    <value>Isiphelo sokufumanisa ukufumana imethadatha kulo mboneleli wesazisi. Cacisa kuphela ukuba umnikezeli wesazisi akasebenzisi indlela esemgangathweni (okt. /.well-known/openid-configuration)</value>
+  </data>
+  <data name="MetadataUrl.Text" xml:space="preserve">
+    <value>I-URL yemethadatha:</value>
+  </data>
+  <data name="PasswordSettings.Heading" xml:space="preserve">
+    <value>Imimiselo yegama eligqithisiweyo</value>
+  </data>
+  <data name="PKCE.HelpText" xml:space="preserve">
+    <value>Bonisa ukuba ngaba umnikezeli wesazisi uyasixhasa isitshixo sobungqina sokutshintshiselana ngekhowudi (PKCE)</value>
+  </data>
+  <data name="PKCE.Text" xml:space="preserve">
+    <value>Sebenzisa i-PKCE?</value>
+  </data>
+  <data name="ProviderName.HelpText" xml:space="preserve">
+    <value>Cacisa igama elinobuhlobo lomnikezeli wokungena wangaphandle oya kubonakalisa kwiphepha lokungena</value>
+  </data>
+  <data name="ProviderName.Text" xml:space="preserve">
+    <value>Igama lomnikezeli:</value>
+  </data>
+  <data name="ProviderType.HelpText" xml:space="preserve">
+    <value>Khetha umnikezeli wokungena wangaphandle</value>
+  </data>
+  <data name="ProviderType.Text" xml:space="preserve">
+    <value>Uhlobo loMnikezeli:</value>
+  </data>
+  <data name="RedirectUrl.HelpText" xml:space="preserve">
+    <value>I-URL yokuqondisa kwakhona (okanye i-url yokubuyisela umnxeba) ehlala ifuna ukubhaliswa kunye nomnikezeli wesazisi</value>
+  </data>
+  <data name="RedirectUrl.Text" xml:space="preserve">
+    <value>Ukuqondisa kwakhona i-URL:</value>
+  </data>
+  <data name="Scopes.HelpText" xml:space="preserve">
+    <value>Uluhlu lweendawo zokucela kumnikezeli wesazisi (ezahlulwe ngamakoma). Ukuba akukho nto ichaziweyo, imida esemgangathweni iya kusetyenziswa ngokungagqibekanga.</value>
+  </data>
+  <data name="Scopes.Text" xml:space="preserve">
+    <value>Imida:</value>
+  </data>
+  <data name="TokenUrl.HelpText" xml:space="preserve">
+    <value>Isiphelo sokufumana i-Token ye-Auth</value>
+  </data>
+  <data name="TokenUrl.Text" xml:space="preserve">
+    <value>I-URL yethokheni:</value>
+  </data>
+  <data name="UserInfoUrl.HelpText" xml:space="preserve">
+    <value>Isiphelo sokufumana ulwazi lomsebenzisi. Oku kufuneka kube sisiphelo se-API okanye i-url yephepha eliqulethe idilesi ye-imeyile yomsebenzisi.</value>
+  </data>
+  <data name="UserInfoUrl.Text" xml:space="preserve">
+    <value>Inkcazelo yomsebenzisi:</value>
+  </data>
+  <data name="Audience.HelpText" xml:space="preserve">
+    <value>Nika abaphulaphuli ithokheni ngokuzikhethela</value>
+  </data>
+  <data name="Audience.Text" xml:space="preserve">
+    <value>Abaphulaphuli:</value>
+  </data>
+  <data name="UserSettings.Heading" xml:space="preserve">
+    <value>Imimiselo yomsebenzisi</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>Unokukhetha ukusebenzisa igama lekhukhi yokuqinisekiswa kwesiko kwiwebhusayithi nganye. Nangona kunjalo, nceda uqaphele ukuba ukuba ufuna ukwabelana nge-cookie yokuqinisekiswa phakathi kweesayithi kwi-domain efanayo, kufuneka basebenzise igama le-cookie elihambelanayo. Kwakhona qaphela ukuba ukutshintsha igama le-cookie yokuqinisekiswa kuya kukhupha bonke abasebenzisi abakhoyo.</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Igama leCookie:</value>
+  </data>
+  <data name="CreateToken" xml:space="preserve">
+    <value>Yenza umqondiso</value>
+  </data>
+  <data name="Issuer.HelpText" xml:space="preserve">
+    <value>Khetha ukubonelela ngomnikezeli wethokheni</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>Umkhuphi:</value>
+  </data>
+  <data name="Lifetime.HelpText" xml:space="preserve">
+    <value>Inani lemizuzu apho umqondiso kufuneka usebenze</value>
+  </data>
+  <data name="Lifetime.Text" xml:space="preserve">
+    <value>Ixesha lokuphila:</value>
+  </data>
+  <data name="Secret.HelpText" xml:space="preserve">
+    <value>Ukuba ufuna ukubonelela ngokufikelela kwi-API, nceda uchaze imfihlo eza kusetyenziswa ukufihla iithokheni zakho. Imfihlelo kufuneka ibe ngabalinganiswa abali-16 okanye ngaphezulu ukuqinisekisa ukhuseleko olufanelekileyo. Nceda uqaphele ukuba ukuba utshintsha le mfihlelo, zonke iithokheni ezikhoyo ziya kuba zingasebenzi kwaye kuya kufuneka zenziwe kwakhona.</value>
+  </data>
+  <data name="Secret.Text" xml:space="preserve">
+    <value>Imfihlelo:</value>
+  </data>
+  <data name="Token.HelpText" xml:space="preserve">
+    <value>Khetha i Yenza iqhosha lethokheni ukuvelisa ithokheni yofikelelo oluhlala ixesha elide (esebenzayo unyaka o-1). Qiniseka ukuba ugcina lo mqondiso kwindawo ekhuselekileyo njengoko awuyi kuba nakho ukufikelela kuyo kwixesha elizayo.</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>Ithokheni:</value>
+  </data>
+  <data name="TokenSettings.Heading" xml:space="preserve">
+    <value>Imimiselo yethokheni</value>
+  </data>
+  <data name="TwoFactor.HelpText" xml:space="preserve">
+    <value>Ingaba ufuna abasebenzisi basebenzise ubungqina bezinto ezimbini? Qaphela ukuba ungasebenzisa ukhetho olukhubazekileyo de uqinisekise ngempumelelo ukuba Umsebenzi Wesaziso kwiMisebenzi Ecwangcisiweyo yenziwe kwaye iinketho zakho ze SMTP kwi Izicwangciso Zenxuwa ziqwalaselwe okanye kungenjalo uzakuzitshixa ngaphandle.</value>
+  </data>
+  <data name="TwoFactor.Text" xml:space="preserve">
+    <value>Izinto ezimbini?</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Ikhubazekile</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Ukuzikhethela</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Iyafuneka</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>Ungeno lokugqibela</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>Specify the type name of the unique user identifier claim provided by the identity provider. The default value is 'sub'.</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>Ibango lesazisi:</value>
+  </data>
+  <data name="Parameters.HelpText" xml:space="preserve">
+    <value>Ngokuzikhethela, cacisa naziphi na iiparameter ezongezelelweyo njengegama / ixabiso leebhanki zokuthumela kumnikezeli wesazisi (ezahlulwe ziikoma ukuba kukho ezininzi).</value>
+  </data>
+  <data name="Parameters.Text" xml:space="preserve">
+    <value>Iiparameter:</value>
+  </data>
+  <data name="RoleClaimType.HelpText" xml:space="preserve">
+    <value>Optionally provide the type name of the roles claim provided by the identity provider (the standard default is 'roles'). If role names from the identity provider do not exactly match your site role names, please use the Role Claim Mappings.</value>
+  </data>
+  <data name="RoleClaimType.Text" xml:space="preserve">
+    <value>Ibango leeNdima:</value>
+  </data>
+  <data name="RoleClaimMappings.HelpText" xml:space="preserve">
+    <value>Optionally provide a comma delimited list of role names provided by the identity provider, as well as mappings to your site roles. For example if the identity provider includes an 'Admin' role name and you want it to map to the 'Administrators' site role you should specify 'Admin:Administrators'.</value>
+  </data>
+  <data name="RoleClaimMappings.Text" xml:space="preserve">
+    <value>Iimephu zeBango leNdima:</value>
+  </data>
+  <data name="SynchronizeRoles.HelpText" xml:space="preserve">
+    <value>Olu khetho luza kongeza okanye lususe izabelo zendima ukwenzela ukuba iindima zesiza zihambelane ngokuchanekileyo neendima ezinikezelwa ngumnikezeli wesazisi kumsebenzisi</value>
+  </data>
+  <data name="SynchronizeRoles.Text" xml:space="preserve">
+    <value>Ukuvumelanisa iindima?</value>
+  </data>
+  <data name="ProfileClaimTypes.HelpText" xml:space="preserve">
+    <value>Optionally provide a comma delimited list of user profile claim type names provided by the identity provider, as well as mappings to your user profile definition. For example if the identity provider includes a 'given_name' claim and you have a 'FirstName' user profile definition you should specify 'given_name:FirstName'.</value>
+  </data>
+  <data name="ProfileClaimTypes.Text" xml:space="preserve">
+    <value>Amabango eprofayile yomsebenzisi:</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Igama lomsebenzisi</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Igama</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Imeyile</value>
+  </data>
+  <data name="ImportUsers.Text" xml:space="preserve">
+    <value>Ngenisa Abasebenzisi</value>
+  </data>
+  <data name="AuthFlow.Code" xml:space="preserve">
+    <value>Ikhowudi yoGunyaziso</value>
+  </data>
+  <data name="AuthFlow.CodeIdToken" xml:space="preserve">
+    <value>Ikhowudi yogunyaziso + ithokheni ye-ID</value>
+  </data>
+  <data name="AuthFlow.CodeIdTokenToken" xml:space="preserve">
+    <value>Ikhowudi yogunyaziso + ithokheni ye-ID + ithokheni yokufikelela</value>
+  </data>
+  <data name="AuthFlow.CodeToken" xml:space="preserve">
+    <value>Ikhowudi yoGunyaziso + Ithokheni yokufikelela</value>
+  </data>
+  <data name="AuthFlow.IdToken" xml:space="preserve">
+    <value>Umqondiso we-ID</value>
+  </data>
+  <data name="AuthFlow.IdTokenToken" xml:space="preserve">
+    <value>Ithokheni ye-ID + ithokheni yokufikelela</value>
+  </data>
+  <data name="AuthFlow.None" xml:space="preserve">
+    <value>Akukho namnye</value>
+  </data>
+  <data name="AuthFlow.Token" xml:space="preserve">
+    <value>Umqondiso wokufikelela</value>
+  </data>
+  <data name="AuthResponseType.Text" xml:space="preserve">
+    <value>Uhlobo lwempendulo yogunyaziso:</value>
+  </data>
+  <data name="AuthResponseType.HelpText" xml:space="preserve">
+    <value>Cacisa uhlobo lwempendulo yogunyaziso. Ukungagqibeki yiKhowudi yoGunyaziso ethathwa njengeyona ndlela ikhuselekileyo ngokusekwe kwiinkcukacha zamva nje ze-OAuth.</value>
+  </data>
+  <data name="VerifyUsers.HelpText" xml:space="preserve">
+    <value>Ngaba ufuna abasebenzisi abakhoyo benze inyathelo elongezelelweyo lokuqinisekisa i-imeyile ukudibanisa ukungena kwabo kwangaphandle? Ukuba ukhubaza olu khetho, abasebenzisi abakhoyo bazakudityaniswa ngokuzenzekelayo.</value>
+  </data>
+  <data name="VerifyUsers.Text" xml:space="preserve">
+    <value>Qinisekisa abasebenzisi abakhoyo?</value>
+  </data>
+  <data name="AlwaysRemember.HelpText" xml:space="preserve">
+    <value>Ukwenza olu khetho kuya kuseta i-cookie esisigxina ngokudibeneyo nexesha lokuphelelwa kwekhukhi, eliya kuthi lingene ngokuzenzekelayo kubasebenzisi kwixesha elizayo xa bendwendwela indawo. Ngokungagqibekanga, iwebhusayithi iya kusebenzisa ii-cookies zeseshoni.</value>
+  </data>
+  <data name="AlwaysRemember.Text" xml:space="preserve">
+    <value>Soloko ukhumbula umsebenzisi?</value>
+  </data>
+  <data name="CookieExpiration.HelpText" xml:space="preserve">
+    <value>You can choose to use a custom authentication cookie expiration timespan for each site (e.g. '08:00:00' for 8 hours). The default is 14 days if not specified.</value>
+  </data>
+  <data name="CookieExpiration.Text" xml:space="preserve">
+    <value>Ixesha lokuphelelwa kwekhukhi:</value>
+  </data>
+  <data name="ReviewClaims.Text" xml:space="preserve">
+    <value>Amabango okuphononongwa?</value>
+  </data>
+  <data name="ReviewClaims.HelpText" xml:space="preserve">
+    <value>Olu khetho luya kurekhoda uluhlu olupheleleyo lwamabango abuyiselwe ngumboneleli kwilog yesiganeko. Kufuneka isetyenziswe kuphela ngeenjongo zovavanyo. Ungeno lwangaphandle luya kuthintelwa xa olu khetho lusebenze.</value>
+  </data>
+  <data name="NameClaimType.HelpText" xml:space="preserve">
+    <value>Optionally specify the type name of the user's name claim provided by the identity provider. The typical value is 'name'.</value>
+  </data>
+  <data name="NameClaimType.Text" xml:space="preserve">
+    <value>Ibango legama:</value>
+  </data>
+  <data name="Provider.HelpText" xml:space="preserve">
+    <value>Khetha umnikezeli wokungena wangaphandle</value>
+  </data>
+  <data name="Provider.Text" xml:space="preserve">
+    <value>Umboneleli:</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Ulwazi</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>I-OAuth 2.0</value>
+  </data>
+  <data name="OIDC" xml:space="preserve">
+    <value>I-OpenID Connect (OIDC)</value>
+  </data>
+  <data name="SaveTokens.Text" xml:space="preserve">
+    <value>Gcina iithokheni?</value>
+  </data>
+  <data name="SaveTokens.HelpText" xml:space="preserve">
+    <value>Cacisa ukuba iimpawu zofikelelo nokuhlaziya zimelwe zigcinwe na emva kokungena ngempumelelo. Ukungagqibeki akuyonyani ukunciphisa ubungakanani becookie yokuqinisekisa.</value>
+  </data>
+  <data name="Success.DeleteUser" xml:space="preserve">
+    <value>Umsebenzisi ucinywe ngempumelelo</value>
+  </data>
+  <data name="Error.DeleteUser" xml:space="preserve">
+    <value>Kwenzeke impazamo ngelixa kucinywa umsebenzisi</value>
+  </data>
+  <data name="LogoutEverywhere.Text" xml:space="preserve">
+    <value>Ukuphuma kuyo yonke indawo?</value>
+  </data>
+  <data name="LogoutEverywhere.HelpText" xml:space="preserve">
+    <value>Ingaba ufuna ukuba abasebenzisi baphume kwiiseshoni nganye esebenzayo nakweyiphi na isixhobo, okanye kuphela iseshoni yabo yangoku?</value>
+  </data>
+  <data name="AllowHostRole.Text" xml:space="preserve">
+    <value>Vumela indima yomququzeli?</value>
+  </data>
+  <data name="AllowHostRole.HelpText" xml:space="preserve">
+    <value>Bonisa ukuba iindima zomququzeleli zixhaswa ngumnikezeli wesazisi. Nceda uqaphele olu khetho njengoko luvumela umsebenzisi womninimzi ukuba alawule zonke iindawo ngaphakathi kofakelo lwakho.</value>
+  </data>
+</root>
