@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Wagwoord vergeet</value>
+  </data>
+  <data name="Success.Account.Verified" xml:space="preserve">
+    <value>Gebruikersrekening e-posadres suksesvol geverifieer. Jy kan nou aanmeld met jou gebruikersnaam en wagwoord.</value>
+  </data>
+  <data name="Message.Account.NotVerified" xml:space="preserve">
+    <value>Gebruikersrekening e-posadres kon nie geverifieer word nie. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="Success.Account.Linked" xml:space="preserve">
+    <value>Gebruikersrekening suksesvol gekoppel. Jy kan nou aanmeld met jou eksterne aanmelding hieronder.</value>
+  </data>
+  <data name="Message.Account.NotLinked" xml:space="preserve">
+    <value>Eksterne aanmelding kon nie gekoppel word nie. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="Error.Login.Fail" xml:space="preserve">
+    <value>Aanmelding het misluk. Onthou asseblief dat wagwoorde hooflettersensitief is. As jy verskeie kere probeer het om aan te meld sonder sukses, sal jou rekening vir &apos;n tydperk uitgesluit word. Let daarop dat gebruikersrekeninge dikwels e-posadresverifikasie vereis, so jy sal dalk jou e-pos wil nagaan vir &apos;n kennisgewing.</value>
+  </data>
+  <data name="Message.Required.UserInfo" xml:space="preserve">
+    <value>Verskaf asseblief alle vereiste velde</value>
+  </data>
+  <data name="Info.SignedIn" xml:space="preserve">
+    <value>Jy is reeds aangemeld</value>
+  </data>
+  <data name="Message.ForgotPassword" xml:space="preserve">
+    <value>Voer asseblief die gebruikersnaam in wat met jou rekening verband hou en kies dan weer die wagwoord vergeet-opsie</value>
+  </data>
+  <data name="Message.ForgotUser" xml:space="preserve">
+    <value>Gaan asseblief die e-posadres na wat aan jou gebruikersrekening geassosieer word vir &apos;n kennisgewing oor die herstel van wagwoorde</value>
+  </data>
+  <data name="Message.UserDoesNotExist" xml:space="preserve">
+    <value>Gebruiker bestaan nie</value>
+  </data>
+  <data name="Code.HelpText" xml:space="preserve">
+    <value>Voer asseblief die veilige verifikasiekode in wat per e-pos aan jou gestuur is.</value>
+  </data>
+  <data name="Code.Placeholder" xml:space="preserve">
+    <value>Verifikasie kode</value>
+  </data>
+  <data name="Code.Text" xml:space="preserve">
+    <value>Verifikasie kode:</value>
+  </data>
+  <data name="Error.TwoFactor.Fail" xml:space="preserve">
+    <value>Verifikasie het misluk. Maak asseblief seker dat jy die kode presies ingevoer het in die vorm wat in jou e-pos verskaf is. As jy &apos;n nuwe verifikasiekode wil aanvra, kies asseblief die Kanselleer-opsie en meld weer aan. </value>
+  </data>
+  <data name="Message.TwoFactor" xml:space="preserve">
+    <value>&apos;n Veilige verifikasiekode is na jou e-posadres gestuur. Voer asseblief die kode in wat jy ontvang het. As jy nie die kode ontvang nie of jy het toegang tot jou e-pos verloor, kontak asseblief jou administrateur.</value>
+  </data>
+  <data name="Password.HelpText" xml:space="preserve">
+    <value>Voer asseblief die wagwoord in wat met jou rekening verband hou. Onthou dat wagwoorde hooflettersensitief is. As jy verskeie kere onsuksesvol probeer om by jou rekening aan te meld, sal jy vir &apos;n tydperk uitgesluit word.</value>
+  </data>
+  <data name="Password.Placeholder" xml:space="preserve">
+    <value>Wagwoord</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Wagwoord:</value>
+  </data>
+  <data name="Remember.HelpText" xml:space="preserve">
+    <value>Spesifiseer of jy outomaties weer aangemeld wil word die volgende keer as jy hierdie webwerf besoek</value>
+  </data>
+  <data name="Remember.Text" xml:space="preserve">
+    <value>Onthou jy my?</value>
+  </data>
+  <data name="Username.HelpText" xml:space="preserve">
+    <value>Voer asseblief die gebruikersnaam in wat met jou rekening verband hou</value>
+  </data>
+  <data name="Username.Placeholder" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Gebruikersnaam:</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Gebruik</value>
+  </data>
+  <data name="Error.LoadLogin" xml:space="preserve">
+    <value>Fout met laai van aanmelding</value>
+  </data>
+  <data name="Error.Login" xml:space="preserve">
+    <value>Fout met aanmelding</value>
+  </data>
+  <data name="Error.ResetPassword" xml:space="preserve">
+    <value>Fout met herstel van wagwoord</value>
+  </data>
+  <data name="ExternalLoginStatus.DuplicateEmail" xml:space="preserve">
+    <value>Verskeie gebruikersrekeninge bestaan reeds met die e-posadres van jou eksterne aanmelding. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.MissingClaims" xml:space="preserve">
+    <value>Die eksterne aanmeldverskaffer het nie al die vereiste inligting verskaf nie. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.ProviderKeyMismatch" xml:space="preserve">
+    <value>&apos;n Fout het voorgekom om jou eksterne aanmelding te verifieer. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserDoesNotExist" xml:space="preserve">
+    <value>&apos;n Gebruikersrekening wat ooreenstem met die e-posadres van jou eksterne aanmelding bestaan nie. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserNotCreated" xml:space="preserve">
+    <value>&apos;n Gebruikersrekening kon nie vir jou eksterne aanmelding geskep word nie. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.VerificationRequired" xml:space="preserve">
+    <value>Om jou eksterne aanmelding met jou gebruikersrekening te koppel, moet jy jou identiteit verifieer. Gaan asseblief jou e-pos na vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.AccessDenied" xml:space="preserve">
+    <value>Jou eksterne aanmelding is toegang geweier. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.RemoteFailure" xml:space="preserve">
+    <value>Jou eksterne aanmelding het misluk. Kontak asseblief jou administrateur vir verdere instruksies.</value>
+  </data>
+  <data name="ExternalLoginStatus.ReviewClaims" xml:space="preserve">
+    <value>Die opsie Hersien eise is geaktiveer in eksterne aanmeldinstellings. Besoek asseblief die gebeurtenislogboek om die eise wat deur die verskaffer teruggestuur is, te sien.</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registreer as nuwe gebruiker?</value>
+  </data>
+</root>

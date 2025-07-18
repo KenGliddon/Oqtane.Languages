@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Confirm.User.Delete" xml:space="preserve">
+    <value>Is jy seker jy wil {0} uitvee?</value>
+  </data>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>Voeg gebruiker by</value>
+  </data>
+  <data name="DeleteUser.Header" xml:space="preserve">
+    <value>Skrap gebruiker</value>
+  </data>
+  <data name="AllowRegistration.HelpText" xml:space="preserve">
+    <value>Wil u hê dat anonieme besoekers vir &apos;n rekening op die webwerf kan registreer</value>
+  </data>
+  <data name="AllowRegistration.Text" xml:space="preserve">
+    <value>Laat registrasie toe? </value>
+  </data>
+  <data name="RegisterUrl.HelpText" xml:space="preserve">
+    <value>Verskaf opsioneel &apos;n pasgemaakte registrasie-url</value>
+  </data>
+  <data name="RegisterUrl.Text" xml:space="preserve">
+    <value>Registreer URL: </value>
+  </data>
+  <data name="ProfileUrl.HelpText" xml:space="preserve">
+    <value>Verskaf opsioneel &apos;n pasgemaakte gebruikerprofiel-url</value>
+  </data>
+  <data name="ProfileUrl.Text" xml:space="preserve">
+    <value>Profiel URL: </value>
+  </data>
+  <data name="Error.SaveSiteSettings" xml:space="preserve">
+    <value>Fout met stoor van instellings</value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>Instellings suksesvol gestoor</value>
+  </data>
+  <data name="Users.Heading" xml:space="preserve">
+    <value>Gebruikers</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>Skrap</value>
+  </data>
+  <data name="EditUser.Text" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="Roles.Text" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="LockoutDuration.HelpText" xml:space="preserve">
+    <value>Die aantal minute wat &apos;n gebruiker uitgesluit moet word</value>
+  </data>
+  <data name="LockoutDuration.Text" xml:space="preserve">
+    <value>Uitsluiting duur:</value>
+  </data>
+  <data name="MaximumFailures.HelpText" xml:space="preserve">
+    <value>Die maksimum aantal aanmeldpogings voordat &apos;n gebruiker uitgesluit word</value>
+  </data>
+  <data name="MaximumFailures.Text" xml:space="preserve">
+    <value>Maksimum mislukkings:</value>
+  </data>
+  <data name="RequireDigit.HelpText" xml:space="preserve">
+    <value>Dui aan of wagwoorde &apos;n syfer moet bevat</value>
+  </data>
+  <data name="RequireDigit.Text" xml:space="preserve">
+    <value>Vereis syfer?</value>
+  </data>
+  <data name="RequiredLength.HelpText" xml:space="preserve">
+    <value>Die minimum lengte vir &apos;n wagwoord</value>
+  </data>
+  <data name="RequiredLength.Text" xml:space="preserve">
+    <value>Minimum lengte:</value>
+  </data>
+  <data name="RequireLower.HelpText" xml:space="preserve">
+    <value>Dui aan of wagwoorde &apos;n kleinletter moet bevat</value>
+  </data>
+  <data name="RequireLower.Text" xml:space="preserve">
+    <value>Vereis kleinletters?</value>
+  </data>
+  <data name="RequirePunctuation.HelpText" xml:space="preserve">
+    <value>Dui aan of wagwoorde &apos;n nie-alfanumeriese karakter (dws leestekens) moet bevat</value>
+  </data>
+  <data name="RequirePunctuation.Text" xml:space="preserve">
+    <value>Vereis leestekens?</value>
+  </data>
+  <data name="RequireUpper.HelpText" xml:space="preserve">
+    <value>Dui aan of wagwoorde &apos;n hoofletter moet bevat</value>
+  </data>
+  <data name="RequireUpper.Text" xml:space="preserve">
+    <value>Vereis hoofletters?</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>Konfigurasie opgedateer. Kies asseblief Herbegin toepassing vir hierdie veranderinge om geaktiveer te word.</value>
+  </data>
+  <data name="UniqueCharacters.HelpText" xml:space="preserve">
+    <value>Die minimum aantal unieke karakters wat &apos;n wagwoord moet bevat</value>
+  </data>
+  <data name="UniqueCharacters.Text" xml:space="preserve">
+    <value>Unieke karakters:</value>
+  </data>
+  <data name="AllowSiteLogin.HelpText" xml:space="preserve">
+    <value>Wil u gebruikers toelaat om aan te meld met &apos;n gebruikersnaam en wagwoord wat plaaslik op hierdie webwerf bestuur word? Let daarop dat u hierdie opsie slegs moet deaktiveer as u reeds &apos;n eksterne aanmeldverskaffer suksesvol gekonfigureer het, anders kan u uself uit die webwerf sluit.</value>
+  </data>
+  <data name="AllowSiteLogin.Text" xml:space="preserve">
+    <value>Laat plaaslike aanmelding toe?</value>
+  </data>
+  <data name="Authority.HelpText" xml:space="preserve">
+    <value>Die owerheids-url of uitreiker-url wat met die identiteitsverskaffer geassosieer word</value>
+  </data>
+  <data name="Authority.Text" xml:space="preserve">
+    <value>Owerheid:</value>
+  </data>
+  <data name="AuthorizationUrl.HelpText" xml:space="preserve">
+    <value>Die eindpunt vir die verkryging van &apos;n magtigingskode</value>
+  </data>
+  <data name="AuthorizationUrl.Text" xml:space="preserve">
+    <value>Autorisasie URL:</value>
+  </data>
+  <data name="ClientID.HelpText" xml:space="preserve">
+    <value>Die kliënt-ID vir die identiteitsverskaffer</value>
+  </data>
+  <data name="ClientID.Text" xml:space="preserve">
+    <value>Kliënt ID:</value>
+  </data>
+  <data name="ClientSecret.HelpText" xml:space="preserve">
+    <value>Die kliëntgeheim vir die identiteitsverskaffer</value>
+  </data>
+  <data name="ClientSecret.Text" xml:space="preserve">
+    <value>Kliënt geheim:</value>
+  </data>
+  <data name="CreateUsers.HelpText" xml:space="preserve">
+    <value>Wil u hê dat nuwe gebruikers outomaties geskep moet word? As jy hierdie opsie deaktiveer, moet gebruikers reeds op die webwerf geregistreer wees om met hul eksterne aanmelding aan te meld.</value>
+  </data>
+  <data name="CreateUsers.Text" xml:space="preserve">
+    <value>Skep nuwe gebruikers?</value>
+  </data>
+  <data name="DomainFilter.HelpText" xml:space="preserve">
+    <value>Provide any email domain filter criteria (separated by commas). Domains to exclude should be prefixed with an exclamation point (!). For example 'microsoft.com,!hotmail.com' would include microsoft.com email addresses but not hotmail.com email addresses.</value>
+  </data>
+  <data name="DomainFilter.Text" xml:space="preserve">
+    <value>Domein filter:</value>
+  </data>
+  <data name="EmailClaimType.HelpText" xml:space="preserve">
+    <value>Optionally specify the type name of the email address claim provided by the identity provider. The typical value is 'email'.</value>
+  </data>
+  <data name="EmailClaimType.Text" xml:space="preserve">
+    <value>E-pos eis:</value>
+  </data>
+  <data name="ExternalLoginSettings.Heading" xml:space="preserve">
+    <value>Eksterne aanmeldinstellings</value>
+  </data>
+  <data name="LockoutSettings.Heading" xml:space="preserve">
+    <value>Uitsluiting instellings</value>
+  </data>
+  <data name="MetadataUrl.HelpText" xml:space="preserve">
+    <value>Die ontdekkingseindpunt vir die verkryging van metadata vir hierdie identiteitsverskaffer. Spesifiseer slegs of die identiteitsverskaffer nie die standaardbenadering gebruik nie (dws /.well-known/openid-configuration)</value>
+  </data>
+  <data name="MetadataUrl.Text" xml:space="preserve">
+    <value>Metadata Url:</value>
+  </data>
+  <data name="PasswordSettings.Heading" xml:space="preserve">
+    <value>Wagwoord instellings</value>
+  </data>
+  <data name="PKCE.HelpText" xml:space="preserve">
+    <value>Dui aan of die identiteitsverskaffer bewyssleutel vir kode-uitruiling (PKCE) ondersteun</value>
+  </data>
+  <data name="PKCE.Text" xml:space="preserve">
+    <value>Gebruik PKCE?</value>
+  </data>
+  <data name="ProviderName.HelpText" xml:space="preserve">
+    <value>Spesifiseer &apos;n vriendelike naam vir die eksterne aanmeldverskaffer wat op die aanmeldbladsy vertoon sal word</value>
+  </data>
+  <data name="ProviderName.Text" xml:space="preserve">
+    <value>Verskaffer Naam:</value>
+  </data>
+  <data name="ProviderType.HelpText" xml:space="preserve">
+    <value>Kies die tipe eksterne aanmeldverskaffer</value>
+  </data>
+  <data name="ProviderType.Text" xml:space="preserve">
+    <value>Verskaffer tipe:</value>
+  </data>
+  <data name="RedirectUrl.HelpText" xml:space="preserve">
+    <value>Die herleidings-url (of terugbel-url) wat gewoonlik by die identiteitsverskaffer geregistreer moet word</value>
+  </data>
+  <data name="RedirectUrl.Text" xml:space="preserve">
+    <value>Herlei URL:</value>
+  </data>
+  <data name="Scopes.HelpText" xml:space="preserve">
+    <value>&apos;n Lys van omvang om van die identiteitsverskaffer aan te vra (geskei deur kommas). As geen gespesifiseer word nie, sal standaard Scopes by verstek gebruik word.</value>
+  </data>
+  <data name="Scopes.Text" xml:space="preserve">
+    <value>Omvang:</value>
+  </data>
+  <data name="TokenUrl.HelpText" xml:space="preserve">
+    <value>Die eindpunt vir die verkryging van &apos;n magtigingsteken</value>
+  </data>
+  <data name="TokenUrl.Text" xml:space="preserve">
+    <value>Token Url:</value>
+  </data>
+  <data name="UserInfoUrl.HelpText" xml:space="preserve">
+    <value>Die eindpunt vir die verkryging van gebruikersinligting. Dit moet &apos;n API-eindpunt of bladsy-url wees wat die gebruikers se e-posadres bevat.</value>
+  </data>
+  <data name="UserInfoUrl.Text" xml:space="preserve">
+    <value>Gebruiker Inligting URL:</value>
+  </data>
+  <data name="Audience.HelpText" xml:space="preserve">
+    <value>Verskaf opsioneel die gehoor vir die teken</value>
+  </data>
+  <data name="Audience.Text" xml:space="preserve">
+    <value>Gehoor:</value>
+  </data>
+  <data name="UserSettings.Heading" xml:space="preserve">
+    <value>Gebruiker instellings</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>Jy kan kies om &apos;n pasgemaakte verifikasiekoekienaam vir elke webwerf te gebruik. Wees egter bewus daarvan dat as jy &apos;n verifikasiekoekie tussen werwe op dieselfde domein wil deel, hulle &apos;n konsekwente koekienaam moet gebruik. Wees ook bewus daarvan dat die verandering van die naam van die verifikasiekoekie alle huidige gebruikers sal afmeld.</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Koekie Naam:</value>
+  </data>
+  <data name="CreateToken" xml:space="preserve">
+    <value>Skep teken</value>
+  </data>
+  <data name="Issuer.HelpText" xml:space="preserve">
+    <value>Verskaf opsioneel die uitreiker van die teken</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>Uitreiker:</value>
+  </data>
+  <data name="Lifetime.HelpText" xml:space="preserve">
+    <value>Die aantal minute waarvoor &apos;n teken geldig moet wees</value>
+  </data>
+  <data name="Lifetime.Text" xml:space="preserve">
+    <value>Leeftyd:</value>
+  </data>
+  <data name="Secret.HelpText" xml:space="preserve">
+    <value>As jy API-toegang wil verskaf, spesifiseer asseblief &apos;n geheim wat gebruik sal word om jou tokens te enkripteer. Die geheim moet 16 karakters of meer wees om optimale sekuriteit te verseker. Neem asseblief kennis dat as jy hierdie geheim verander, alle bestaande tokens ongeldig sal word en herskep moet word.</value>
+  </data>
+  <data name="Secret.Text" xml:space="preserve">
+    <value>Geheim:</value>
+  </data>
+  <data name="Token.HelpText" xml:space="preserve">
+    <value>Kies die Skep token-knoppie om &apos;n langlewende toegangstoken te genereer (geldig vir 1 jaar). Maak seker dat jy hierdie teken op &apos;n veilige plek stoor, aangesien jy nie in die toekoms toegang daartoe sal hê nie.</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>Teken:</value>
+  </data>
+  <data name="TokenSettings.Heading" xml:space="preserve">
+    <value>Token-instellings</value>
+  </data>
+  <data name="TwoFactor.HelpText" xml:space="preserve">
+    <value>Wil u hê dat gebruikers tweefaktor-verifikasie moet gebruik? Let daarop dat jy die Gedeaktiveerde opsie moet gebruik totdat jy suksesvol geverifieer het dat die kennisgewingtaak in geskeduleerde take geaktiveer is en jou SMTP-opsies in werfinstellings gekonfigureer is, anders sal jy jouself uitsluit.</value>
+  </data>
+  <data name="TwoFactor.Text" xml:space="preserve">
+    <value>Twee faktor?</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Gedeaktiveer</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Opsioneel</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Vereis</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>Laaste aanmelding</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>Specify the type name of the unique user identifier claim provided by the identity provider. The default value is 'sub'.</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>Identifiseerder eis:</value>
+  </data>
+  <data name="Parameters.HelpText" xml:space="preserve">
+    <value>Spesifiseer opsioneel addisionele parameters as naam/waarde-pare om na die identiteitsverskaffer te stuur (geskei deur kommas as daar veelvuldige is).</value>
+  </data>
+  <data name="Parameters.Text" xml:space="preserve">
+    <value>Parameters:</value>
+  </data>
+  <data name="RoleClaimType.HelpText" xml:space="preserve">
+    <value>Optionally provide the type name of the roles claim provided by the identity provider (the standard default is 'roles'). If role names from the identity provider do not exactly match your site role names, please use the Role Claim Mappings.</value>
+  </data>
+  <data name="RoleClaimType.Text" xml:space="preserve">
+    <value>Rolle eis:</value>
+  </data>
+  <data name="RoleClaimMappings.HelpText" xml:space="preserve">
+    <value>Optionally provide a comma delimited list of role names provided by the identity provider, as well as mappings to your site roles. For example if the identity provider includes an 'Admin' role name and you want it to map to the 'Administrators' site role you should specify 'Admin:Administrators'.</value>
+  </data>
+  <data name="RoleClaimMappings.Text" xml:space="preserve">
+    <value>Kartering van roleis:</value>
+  </data>
+  <data name="SynchronizeRoles.HelpText" xml:space="preserve">
+    <value>Hierdie opsie sal roltoewysings byvoeg of verwyder sodat die werfrolle presies ooreenstem met die rolle wat deur die identiteitsverskaffer vir &apos;n gebruiker verskaf word</value>
+  </data>
+  <data name="SynchronizeRoles.Text" xml:space="preserve">
+    <value>Sinchroniseer rolle?</value>
+  </data>
+  <data name="ProfileClaimTypes.HelpText" xml:space="preserve">
+    <value>Optionally provide a comma delimited list of user profile claim type names provided by the identity provider, as well as mappings to your user profile definition. For example if the identity provider includes a 'given_name' claim and you have a 'FirstName' user profile definition you should specify 'given_name:FirstName'.</value>
+  </data>
+  <data name="ProfileClaimTypes.Text" xml:space="preserve">
+    <value>Gebruikersprofiel eise:</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-pos</value>
+  </data>
+  <data name="ImportUsers.Text" xml:space="preserve">
+    <value>Voer gebruikers in</value>
+  </data>
+  <data name="AuthFlow.Code" xml:space="preserve">
+    <value>Magtigingskode</value>
+  </data>
+  <data name="AuthFlow.CodeIdToken" xml:space="preserve">
+    <value>Autorisasiekode + ID-teken</value>
+  </data>
+  <data name="AuthFlow.CodeIdTokenToken" xml:space="preserve">
+    <value>Autorisasiekode + ID-token + toegangstoken</value>
+  </data>
+  <data name="AuthFlow.CodeToken" xml:space="preserve">
+    <value>Autorisasiekode + toegangsteken</value>
+  </data>
+  <data name="AuthFlow.IdToken" xml:space="preserve">
+    <value>ID-teken</value>
+  </data>
+  <data name="AuthFlow.IdTokenToken" xml:space="preserve">
+    <value>ID-teken + toegangsteken</value>
+  </data>
+  <data name="AuthFlow.None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="AuthFlow.Token" xml:space="preserve">
+    <value>Toegang Token</value>
+  </data>
+  <data name="AuthResponseType.Text" xml:space="preserve">
+    <value>Tipe magtigingsreaksie:</value>
+  </data>
+  <data name="AuthResponseType.HelpText" xml:space="preserve">
+    <value>Spesifiseer die magtigingsantwoordtipe. Die standaard is magtigingskode wat as die veiligste opsie beskou word op grond van die nuutste OAuth-spesifikasie.</value>
+  </data>
+  <data name="VerifyUsers.HelpText" xml:space="preserve">
+    <value>Wil jy hê bestaande gebruikers moet &apos;n bykomende e-posverifikasiestap uitvoer om hul eksterne aanmelding te koppel? As jy hierdie opsie deaktiveer, sal bestaande gebruikers outomaties gekoppel word.</value>
+  </data>
+  <data name="VerifyUsers.Text" xml:space="preserve">
+    <value>Verifieer bestaande gebruikers?</value>
+  </data>
+  <data name="AlwaysRemember.HelpText" xml:space="preserve">
+    <value>Deur hierdie opsie te aktiveer, sal &apos;n permanente koekie in samewerking met die koekie-vervaltydperk ingestel word, wat gebruikers outomaties sal aanmeld die volgende keer as hulle die webwerf besoek. Die webwerf sal standaard sessiekoekies gebruik.</value>
+  </data>
+  <data name="AlwaysRemember.Text" xml:space="preserve">
+    <value>Onthou altyd gebruiker?</value>
+  </data>
+  <data name="CookieExpiration.HelpText" xml:space="preserve">
+    <value>You can choose to use a custom authentication cookie expiration timespan for each site (e.g. '08:00:00' for 8 hours). The default is 14 days if not specified.</value>
+  </data>
+  <data name="CookieExpiration.Text" xml:space="preserve">
+    <value>Koekie vervaltyd:</value>
+  </data>
+  <data name="ReviewClaims.Text" xml:space="preserve">
+    <value>Hersien eise?</value>
+  </data>
+  <data name="ReviewClaims.HelpText" xml:space="preserve">
+    <value>Hierdie opsie sal die volledige lys eise wat deur die verskaffer teruggestuur word, in die gebeurtenislogboek aanteken. Dit moet slegs vir toetsdoeleindes gebruik word. Eksterne aanmelding sal beperk word wanneer hierdie opsie geaktiveer is.</value>
+  </data>
+  <data name="NameClaimType.HelpText" xml:space="preserve">
+    <value>Optionally specify the type name of the user's name claim provided by the identity provider. The typical value is 'name'.</value>
+  </data>
+  <data name="NameClaimType.Text" xml:space="preserve">
+    <value>Naam eis:</value>
+  </data>
+  <data name="Provider.HelpText" xml:space="preserve">
+    <value>Kies die eksterne aanmeldverskaffer</value>
+  </data>
+  <data name="Provider.Text" xml:space="preserve">
+    <value>Verskaffer:</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Inligting</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>OAuth 2.0</value>
+  </data>
+  <data name="OIDC" xml:space="preserve">
+    <value>OpenID-verbinding (OIDC)</value>
+  </data>
+  <data name="SaveTokens.Text" xml:space="preserve">
+    <value>Stoor tokens?</value>
+  </data>
+  <data name="SaveTokens.HelpText" xml:space="preserve">
+    <value>Spesifiseer of toegangs- en verfristokens gestoor moet word na &apos;n suksesvolle aanmelding. Die verstek is vals om die grootte van die verifikasiekoekie te verminder.</value>
+  </data>
+  <data name="Success.DeleteUser" xml:space="preserve">
+    <value>Gebruiker suksesvol uitgevee</value>
+  </data>
+  <data name="Error.DeleteUser" xml:space="preserve">
+    <value>Fout met skrap van gebruiker</value>
+  </data>
+  <data name="LogoutEverywhere.Text" xml:space="preserve">
+    <value>Meld oral af?</value>
+  </data>
+  <data name="LogoutEverywhere.HelpText" xml:space="preserve">
+    <value>Wil jy hê gebruikers moet afgemeld word van elke aktiewe sessie op enige toestel, of slegs hul huidige sessie?</value>
+  </data>
+  <data name="AllowHostRole.Text" xml:space="preserve">
+    <value>Laat gasheerrol toe?</value>
+  </data>
+  <data name="AllowHostRole.HelpText" xml:space="preserve">
+    <value>Dui aan of gasheerrolle deur die identiteitsverskaffer ondersteun word. Wees versigtig met hierdie opsie, aangesien dit die gasheergebruiker toelaat om elke webwerf binne u installasie te administreer.</value>
+  </data>
+</root>

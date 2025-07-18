@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Naam: </value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>Kies houer</value>
+  </data>
+  <data name="Error.Theme.LoadPane" xml:space="preserve">
+    <value>Fout met laai van paneeluitlegte vir tema</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>Verstekhouer: </value>
+  </data>
+  <data name="DefaultAdminContainer" xml:space="preserve">
+    <value>Verstek Admin Houer</value>
+  </data>
+  <data name="Smtp.Required.EnableNotificationJob" xml:space="preserve">
+    <value>** Neem asseblief kennis dat SMTP vereis dat die kennisgewingtaak in geskeduleerde take geaktiveer moet word</value>
+  </data>
+  <data name="Smtp.TestConfig" xml:space="preserve">
+    <value>Toets SMTP-konfigurasie</value>
+  </data>
+  <data name="Success.Settings.SaveSite" xml:space="preserve">
+    <value>Werfinstellings gestoor</value>
+  </data>
+  <data name="Message.Aliases.Taken" xml:space="preserve">
+    <value>&apos;n Alias is gespesifiseer wat reeds vir &apos;n ander webwerf gebruik is</value>
+  </data>
+  <data name="Message.Required.SiteName" xml:space="preserve">
+    <value>Jy moet &apos;n werfnaam, alias en verstektema/houer verskaf</value>
+  </data>
+  <data name="Error.SaveSite" xml:space="preserve">
+    <value>Fout met stoor van webwerf</value>
+  </data>
+  <data name="Info.Smtp.SaveSettings" xml:space="preserve">
+    <value>SMTP-instellings gestoor en &apos;n boodskap is gestuur na die e-posadres wat aan jou gebruikersrekening geassosieer word ... Wag asseblief &apos;n paar minute vir aflewering. As jy nie die e-pos ontvang nie, hersien asseblief die kennisgewingtaak in geskeduleerde take vir enige logbesonderhede.</value>
+  </data>
+  <data name="Error.Smtp.TestConfig" xml:space="preserve">
+    <value>Fout met toets van SMTP-konfigurasie</value>
+  </data>
+  <data name="Message.Required.Smtp" xml:space="preserve">
+    <value>Jy moet die SMTP-gasheer, poort en sender spesifiseer</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>Voer die werfnaam in</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>Die naam van die databasis wat vir die webwerf gebruik word. Let daarop dat dit nie die fisiese databasisnaam is nie, maar eerder die huurdernaam wat binne die raamwerk gebruik word om &apos;n databasis te identifiseer.</value>
+  </data>
+  <data name="Aliases.HelpText" xml:space="preserve">
+    <value>Die url&apos;s vir die webwerf. Dit kan domeinname (bv. domain.com), subdomeine (dws sub.domain.com) of virtuele vouers (dws domain.com/folder) insluit.</value>
+  </data>
+  <data name="IsDeleted.HelpText" xml:space="preserve">
+    <value>Is hierdie webwerf uitgevee?</value>
+  </data>
+  <data name="Logo.HelpText" xml:space="preserve">
+    <value>Spesifiseer &apos;n logo vir die webwerf</value>
+  </data>
+  <data name="FavoriteIcon.HelpText" xml:space="preserve">
+    <value>Spesifiseer &apos;n Favicon. Die formaat vir die prent moet 16×16, 32×32, 48×48 of 64×64 pixels groot wees, en 8-bis, 24-bis of 32-bis in kleurdiepte. Die formaat van die prent moet ICO, PNG of GIF wees.</value>
+  </data>
+  <data name="DefaultTheme.HelpText" xml:space="preserve">
+    <value>Kies die verstektema van die werwe</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>Kies die verstekhouer vir die webwerf</value>
+  </data>
+  <data name="DefaultAdminContainer.HelpText" xml:space="preserve">
+    <value>Kies die verstekadministrateurhouer vir die webwerf</value>
+  </data>
+  <data name="Host.HelpText" xml:space="preserve">
+    <value>Invoer die gasheernaam van die SMTP-bediener</value>
+  </data>
+  <data name="Port.HelpText" xml:space="preserve">
+    <value>Voer die poortnommer vir die SMTP-bediener in. Let asseblief daarop dat hierdie veld vereis word as jy &apos;n gasheernaam verskaf.</value>
+  </data>
+  <data name="UseSsl.HelpText" xml:space="preserve">
+    <value>Spesifiseer of SSL vir jou SMTP-bediener vereis word</value>
+  </data>
+  <data name="SmtpUsername.HelpText" xml:space="preserve">
+    <value>Voer die gebruikersnaam vir jou SMTP-rekening in</value>
+  </data>
+  <data name="SmtpPassword.HelpText" xml:space="preserve">
+    <value>Voer die wagwoord vir jou SMTP-rekening in</value>
+  </data>
+  <data name="SmtpSender.HelpText" xml:space="preserve">
+    <value>Voer die e-posadres in waarvandaan e-posse gestuur sal word. Neem asseblief kennis dat hierdie e-posadres dalk by die SMTP-bediener gemagtig moet word.</value>
+  </data>
+  <data name="EnablePWA.HelpText" xml:space="preserve">
+    <value>Kies of u wil hê dat hierdie webwerf as &apos;n progressiewe webtoepassing (PWA) beskikbaar moet wees</value>
+  </data>
+  <data name="PwaApplicationIcon.HelpText" xml:space="preserve">
+    <value>Sluit &apos;n toepassingsikoon vir jou PWA in. Dit moet &apos;n PNG wees wat 192 X 192 pixels in dimensie is.</value>
+  </data>
+  <data name="PwaSplashIcon.HelpText" xml:space="preserve">
+    <value>Sluit &apos;n spat-ikoon vir jou PWA in. Dit moet &apos;n PNG wees wat 512 X 512 pixels in dimensie is.</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>Databasis: </value>
+  </data>
+  <data name="Aliases.Text" xml:space="preserve">
+    <value>URL&apos;s:</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>Geskrap? </value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>Logo: </value>
+  </data>
+  <data name="FavoriteIcon.Text" xml:space="preserve">
+    <value>Favicon: </value>
+  </data>
+  <data name="DefaultTheme.Text" xml:space="preserve">
+    <value>Verstek tema: </value>
+  </data>
+  <data name="DefaultAdminContainer.Text" xml:space="preserve">
+    <value>Verstek Admin Houer: </value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Gasheer: </value>
+  </data>
+  <data name="Port.Text" xml:space="preserve">
+    <value>Poort: </value>
+  </data>
+  <data name="UseSsl.Text" xml:space="preserve">
+    <value>SSL geaktiveer: </value>
+  </data>
+  <data name="SmtpUsername.Text" xml:space="preserve">
+    <value>Gebruikersnaam: </value>
+  </data>
+  <data name="SmtpPassword.Text" xml:space="preserve">
+    <value>Wagwoord: </value>
+  </data>
+  <data name="SmtpSender.Text" xml:space="preserve">
+    <value>E-pos sender: </value>
+  </data>
+  <data name="EnablePWA.Text" xml:space="preserve">
+    <value>Is geaktiveer? </value>
+  </data>
+  <data name="PwaApplicationIcon.Text" xml:space="preserve">
+    <value>Toepassing-ikoon: </value>
+  </data>
+  <data name="PwaSplashIcon.Text" xml:space="preserve">
+    <value>Splash-ikoon: </value>
+  </data>
+  <data name="Confirm.DeleteSite" xml:space="preserve">
+    <value>Is u seker dat u hierdie webwerf wil verwyder?</value>
+  </data>
+  <data name="Error.DeleteSite" xml:space="preserve">
+    <value>Fout met skrap van webwerf</value>
+  </data>
+  <data name="Message.FailAuth.DeleteSite" xml:space="preserve">
+    <value>U is nie gemagtig om die webwerf uit te vee nie</value>
+  </data>
+  <data name="Theme.Select" xml:space="preserve">
+    <value>Kies tema</value>
+  </data>
+  <data name="Hosting.Heading" xml:space="preserve">
+    <value>UI-komponent-instellings</value>
+  </data>
+  <data name="Prerender.HelpText" xml:space="preserve">
+    <value>Spesifiseer of interaktiewe komponente hul uitvoer op die bediener vooraf moet lewer</value>
+  </data>
+  <data name="Prerender.Text" xml:space="preserve">
+    <value>Voorweergawe: </value>
+  </data>
+  <data name="RenderMode.HelpText" xml:space="preserve">
+    <value>Die verstekweergawemodus vir die webwerf</value>
+  </data>
+  <data name="RenderMode.Text" xml:space="preserve">
+    <value>Weergawe modus:</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Blaai</value>
+  </data>
+  <data name="TenantInformation.Heading" xml:space="preserve">
+    <value>Databasis</value>
+  </data>
+  <data name="PWASettings.Heading" xml:space="preserve">
+    <value>PWA-instellings</value>
+  </data>
+  <data name="SMTPSettings.Heading" xml:space="preserve">
+    <value>SMTP-instellings</value>
+  </data>
+  <data name="ConnectionString.Text" xml:space="preserve">
+    <value>Verbinding:</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>Tik:</value>
+  </data>
+  <data name="ConnectionString.HelpText" xml:space="preserve">
+    <value>Die naam van die verbindingstring in appsettings.json wat gebruik sal word om aan die databasis te koppel</value>
+  </data>
+  <data name="Database.HelpText" xml:space="preserve">
+    <value>Die tipe databasis</value>
+  </data>
+  <data name="DeleteSite.Header" xml:space="preserve">
+    <value>Skrap webwerf</value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>Skrap webwerf</value>
+  </data>
+  <data name="DefaultAlias.HelpText" xml:space="preserve">
+    <value>Die verstek alias vir die webwerf. Versoeke vir nie-verstek aliasse sal na die verstekalias herlei word.</value>
+  </data>
+  <data name="DefaultAlias.Text" xml:space="preserve">
+    <value>Verstek alias: </value>
+  </data>
+  <data name="Aliases.Heading" xml:space="preserve">
+    <value>Webwerf-URL&apos;s</value>
+  </data>
+  <data name="AliasName" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="AliasDefault" xml:space="preserve">
+    <value>Verstek?</value>
+  </data>
+  <data name="Confirm.Alias.Delete" xml:space="preserve">
+    <value>Is jy seker jy wil {0} uitvee?</value>
+  </data>
+  <data name="HomePage.HelpText" xml:space="preserve">
+    <value>Select the home page for the site (to be used if there is no page with a path of '/')</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>Tuisblad:</value>
+  </data>
+  <data name="SmtpRelay.HelpText" xml:space="preserve">
+    <value>Only specify this option if you have properly configured an SMTP Relay Service to route your outgoing mail. This option will send notifications from the user's email rather than from the Email Sender specified above.</value>
+  </data>
+  <data name="SmtpRelay.Text" xml:space="preserve">
+    <value>Aflos gekonfigureer?</value>
+  </data>
+  <data name="SiteMap.HelpText" xml:space="preserve">
+    <value>Die webwerfkaart-url vir hierdie webwerf wat by soekenjins ingedien kan word vir indeksering. Die sitemap word vir 5 minute in die kas gestoor en die kas kan met die hand skoongemaak word.</value>
+  </data>
+  <data name="SiteMap.Text" xml:space="preserve">
+    <value>Webwerf Kaart:</value>
+  </data>
+  <data name="Appearance.Heading" xml:space="preserve">
+    <value>Voorkoms</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>Voer opsioneel inhoud in wat by die bladsykop ingesluit moet word (dws meta-, skakel- of scriptetikette)</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>Hoof inhoud:</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>Voer opsioneel inhoud in wat by die bladsyliggaam ingesluit moet word (dws skrifetikette)</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>Liggaamsinhoud:</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>Bladsy inhoud</value>
+  </data>
+  <data name="SMTPEnabled.HelpText" xml:space="preserve">
+    <value>Spesifiseer of SMTP vir hierdie webwerf geaktiveer is</value>
+  </data>
+  <data name="SMTPEnabled.Text" xml:space="preserve">
+    <value>Geaktiveer?</value>
+  </data>
+  <data name="Version.HelpText" xml:space="preserve">
+    <value>Die werfweergawe (vir werfinhoudmigrasies)</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>Weergawe:</value>
+  </data>
+  <data name="DeleteAlias.Text" xml:space="preserve">
+    <value>Skrap</value>
+  </data>
+  <data name="DeleteAlias.Header" xml:space="preserve">
+    <value>Skrap Alias</value>
+  </data>
+  <data name="SiteGuid.HelpText" xml:space="preserve">
+    <value>Die unieke identifiseerder vir die webwerf</value>
+  </data>
+  <data name="SiteGuid.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="Retention.HelpText" xml:space="preserve">
+    <value>Aantal dae van kennisgewings om te behou</value>
+  </data>
+  <data name="Retention.Text" xml:space="preserve">
+    <value>Retensie (dae):</value>
+  </data>
+  <data name="HybridEnabled.HelpText" xml:space="preserve">
+    <value>Spesifiseer of die webwerf geïntegreer kan word met &apos;n eksterne .NET MAUI-hibriede toepassing</value>
+  </data>
+  <data name="HybridEnabled.Text" xml:space="preserve">
+    <value>Hibriede geaktiveer?</value>
+  </data>
+  <data name="Runtime.HelpText" xml:space="preserve">
+    <value>Die weergawemodus vir UI-komponente wat interaktiwiteit vereis</value>
+  </data>
+  <data name="Runtime.Text" xml:space="preserve">
+    <value>Interaktiwiteit:</value>
+  </data>
+  <data name="TextEditor.HelpText" xml:space="preserve">
+    <value>Kies die teksredigeerder vir die webwerf</value>
+  </data>
+  <data name="TextEditor.Text" xml:space="preserve">
+    <value>Teks redigeerder:</value>
+  </data>
+  <data name="Functionality" xml:space="preserve">
+    <value>Funksionaliteit</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Stelsel</value>
+  </data>
+  <data name="CookieConsent.HelpText" xml:space="preserve">
+    <value>Spesifiseer of koekietoestemming op hierdie webwerf geaktiveer is. Neem asseblief kennis dat hierdie opsie saam met &apos;n tema gebruik moet word wat koekietoestemming ondersteun.</value>
+  </data>
+  <data name="CookieConsent.Text" xml:space="preserve">
+    <value>Koekie toestemming:</value>
+  </data>
+  <data name="OptIn" xml:space="preserve">
+    <value>Intekening (GDPR)</value>
+  </data>
+  <data name="OptOut" xml:space="preserve">
+    <value>Onttrekking (CCPA)</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="SiteMap.EvictCache" xml:space="preserve">
+    <value>Maak kas skoon</value>
+  </data>
+  <data name="Success.SiteMap.CacheEvicted" xml:space="preserve">
+    <value>Werfkaartkas skoongemaak</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>Tydsone:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>Die verstektydsone vir die werf</value>
+  </data>
+</root>

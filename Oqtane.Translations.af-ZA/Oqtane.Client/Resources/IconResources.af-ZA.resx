@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Icon.AccountLogin" xml:space="preserve">
+    <value>Rekening aanmelding</value>
+  </data>
+  <data name="Icon.AccountLogout" xml:space="preserve">
+    <value>Rekening Afmeld</value>
+  </data>
+  <data name="Icon.ActionRedo" xml:space="preserve">
+    <value>Aksie Herdoen</value>
+  </data>
+  <data name="Icon.ActionUndo" xml:space="preserve">
+    <value>Aksie Ontdoen</value>
+  </data>
+  <data name="Icon.AlignCenter" xml:space="preserve">
+    <value>Belyn sentrum</value>
+  </data>
+  <data name="Icon.AlignLeft" xml:space="preserve">
+    <value>Belyn links</value>
+  </data>
+  <data name="Icon.AlignRight" xml:space="preserve">
+    <value>Belyn regs</value>
+  </data>
+  <data name="Icon.Aperture" xml:space="preserve">
+    <value>Diafragma</value>
+  </data>
+  <data name="Icon.ArrowBottom" xml:space="preserve">
+    <value>Pyl Onder</value>
+  </data>
+  <data name="Icon.ArrowCircleBottom" xml:space="preserve">
+    <value>Pyl sirkel onder</value>
+  </data>
+  <data name="Icon.ArrowCircleLeft" xml:space="preserve">
+    <value>Pyl sirkel links</value>
+  </data>
+  <data name="Icon.ArrowCircleRight" xml:space="preserve">
+    <value>Pyl sirkel regs</value>
+  </data>
+  <data name="Icon.ArrowCircleTop" xml:space="preserve">
+    <value>Pyl sirkel bo-aan</value>
+  </data>
+  <data name="Icon.ArrowLeft" xml:space="preserve">
+    <value>Pyltjie links</value>
+  </data>
+  <data name="Icon.ArrowRight" xml:space="preserve">
+    <value>Pyltjie regs</value>
+  </data>
+  <data name="Icon.ArrowThickBottom" xml:space="preserve">
+    <value>Pyl dik bodem</value>
+  </data>
+  <data name="Icon.ArrowThickLeft" xml:space="preserve">
+    <value>Pyltjie dik links</value>
+  </data>
+  <data name="Icon.ArrowThickRight" xml:space="preserve">
+    <value>Pyl dik regs</value>
+  </data>
+  <data name="Icon.ArrowThickTop" xml:space="preserve">
+    <value>Pyl dik bokant</value>
+  </data>
+  <data name="Icon.ArrowTop" xml:space="preserve">
+    <value>Pyl bo-aan</value>
+  </data>
+  <data name="Icon.AudioSpectrum" xml:space="preserve">
+    <value>Oudiospektrum</value>
+  </data>
+  <data name="Icon.Audio" xml:space="preserve">
+    <value>Oudio</value>
+  </data>
+  <data name="Icon.Badge" xml:space="preserve">
+    <value>Kenteken</value>
+  </data>
+  <data name="Icon.Ban" xml:space="preserve">
+    <value>Verbod</value>
+  </data>
+  <data name="Icon.BarChart" xml:space="preserve">
+    <value>Staafgrafiek</value>
+  </data>
+  <data name="Icon.Basket" xml:space="preserve">
+    <value>Mandjie</value>
+  </data>
+  <data name="Icon.BatteryEmpty" xml:space="preserve">
+    <value>Battery leeg</value>
+  </data>
+  <data name="Icon.BatteryFull" xml:space="preserve">
+    <value>Battery vol</value>
+  </data>
+  <data name="Icon.Beaker" xml:space="preserve">
+    <value>Bekerglas</value>
+  </data>
+  <data name="Icon.Bell" xml:space="preserve">
+    <value>Klok</value>
+  </data>
+  <data name="Icon.Bluetooth" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="Icon.Bold" xml:space="preserve">
+    <value>Vet</value>
+  </data>
+  <data name="Icon.Bolt" xml:space="preserve">
+    <value>Bout</value>
+  </data>
+  <data name="Icon.Book" xml:space="preserve">
+    <value>Boek</value>
+  </data>
+  <data name="Icon.Bookmark" xml:space="preserve">
+    <value>Boekmerk</value>
+  </data>
+  <data name="Icon.Box" xml:space="preserve">
+    <value>Boks</value>
+  </data>
+  <data name="Icon.Briefcase" xml:space="preserve">
+    <value>Aktetas</value>
+  </data>
+  <data name="Icon.BritishPound" xml:space="preserve">
+    <value>Britse pond</value>
+  </data>
+  <data name="Icon.Browser" xml:space="preserve">
+    <value>Blaaier</value>
+  </data>
+  <data name="Icon.Brush" xml:space="preserve">
+    <value>Kwas</value>
+  </data>
+  <data name="Icon.Bug" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="Icon.Bullhorn" xml:space="preserve">
+    <value>Bulhoring</value>
+  </data>
+  <data name="Icon.Calculator" xml:space="preserve">
+    <value>Sakrekenaar</value>
+  </data>
+  <data name="Icon.Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Icon.CameraSlr" xml:space="preserve">
+    <value>Kamera Slr</value>
+  </data>
+  <data name="Icon.CaretBottom" xml:space="preserve">
+    <value>Caret onderkant</value>
+  </data>
+  <data name="Icon.CaretLeft" xml:space="preserve">
+    <value>Caret links</value>
+  </data>
+  <data name="Icon.CaretRight" xml:space="preserve">
+    <value>Caret regs</value>
+  </data>
+  <data name="Icon.CaretTop" xml:space="preserve">
+    <value>Caret bo -op</value>
+  </data>
+  <data name="Icon.Cart" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="Icon.Chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="Icon.Check" xml:space="preserve">
+    <value>Kontroleer</value>
+  </data>
+  <data name="Icon.ChevronBottom" xml:space="preserve">
+    <value>Chevron-onderkant</value>
+  </data>
+  <data name="Icon.ChevronLeft" xml:space="preserve">
+    <value>Chevron Links</value>
+  </data>
+  <data name="Icon.ChevronRight" xml:space="preserve">
+    <value>Chevron regs</value>
+  </data>
+  <data name="Icon.ChevronTop" xml:space="preserve">
+    <value>Chevron Bokant</value>
+  </data>
+  <data name="Icon.CircleCheck" xml:space="preserve">
+    <value>Sirkel kontroleer</value>
+  </data>
+  <data name="Icon.CircleX" xml:space="preserve">
+    <value>Sirkel X</value>
+  </data>
+  <data name="Icon.Clipboard" xml:space="preserve">
+    <value>Knipbord</value>
+  </data>
+  <data name="Icon.Clock" xml:space="preserve">
+    <value>Horlosie</value>
+  </data>
+  <data name="Icon.CloudDownload" xml:space="preserve">
+    <value>Wolk aflaai</value>
+  </data>
+  <data name="Icon.CloudUpload" xml:space="preserve">
+    <value>Wolk oplaai</value>
+  </data>
+  <data name="Icon.Cloud" xml:space="preserve">
+    <value>Wolk</value>
+  </data>
+  <data name="Icon.Cloudy" xml:space="preserve">
+    <value>Bewolkte</value>
+  </data>
+  <data name="Icon.Code" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="Icon.Cog" xml:space="preserve">
+    <value>Tandwiel</value>
+  </data>
+  <data name="Icon.CollapseDown" xml:space="preserve">
+    <value>Ineenstorting</value>
+  </data>
+  <data name="Icon.CollapseLeft" xml:space="preserve">
+    <value>Ineenstorting Links</value>
+  </data>
+  <data name="Icon.CollapseRight" xml:space="preserve">
+    <value>Ineenstort regs</value>
+  </data>
+  <data name="Icon.CollapseUp" xml:space="preserve">
+    <value>Ineenstorting</value>
+  </data>
+  <data name="Icon.Command" xml:space="preserve">
+    <value>Bevel</value>
+  </data>
+  <data name="Icon.CommentSquare" xml:space="preserve">
+    <value>Kommentaar Vierkant</value>
+  </data>
+  <data name="Icon.Compass" xml:space="preserve">
+    <value>Kompas</value>
+  </data>
+  <data name="Icon.Contrast" xml:space="preserve">
+    <value>Kontras</value>
+  </data>
+  <data name="Icon.Copywriting" xml:space="preserve">
+    <value>Kopieskryf</value>
+  </data>
+  <data name="Icon.CreditCard" xml:space="preserve">
+    <value>Kredietkaart</value>
+  </data>
+  <data name="Icon.Crop" xml:space="preserve">
+    <value>Gewas</value>
+  </data>
+  <data name="Icon.Dashboard" xml:space="preserve">
+    <value>Paneelbord</value>
+  </data>
+  <data name="Icon.DataTransferDownload" xml:space="preserve">
+    <value>Data-oordrag aflaai</value>
+  </data>
+  <data name="Icon.DataTransferUpload" xml:space="preserve">
+    <value>Oplaai van data-oordrag</value>
+  </data>
+  <data name="Icon.Delete" xml:space="preserve">
+    <value>Skrap</value>
+  </data>
+  <data name="Icon.Dial" xml:space="preserve">
+    <value>Skakel</value>
+  </data>
+  <data name="Icon.Document" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Icon.Dollar" xml:space="preserve">
+    <value>Dollar</value>
+  </data>
+  <data name="Icon.DoubleQuoteSansLeft" xml:space="preserve">
+    <value>Dubbele aanhaling sonder links</value>
+  </data>
+  <data name="Icon.DoubleQuoteSansRight" xml:space="preserve">
+    <value>Dubbele aanhaling sonder reg</value>
+  </data>
+  <data name="Icon.DoubleQuoteSerifLeft" xml:space="preserve">
+    <value>Dubbele aanhaling serif links</value>
+  </data>
+  <data name="Icon.DoubleQuoteSerifRight" xml:space="preserve">
+    <value>Dubbele aanhaling serif regs</value>
+  </data>
+  <data name="Icon.Droplet" xml:space="preserve">
+    <value>Druppel</value>
+  </data>
+  <data name="Icon.Eject" xml:space="preserve">
+    <value>Ontkoppel</value>
+  </data>
+  <data name="Icon.Elevator" xml:space="preserve">
+    <value>Hysbak</value>
+  </data>
+  <data name="Icon.Ellipses" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="Icon.EnvelopeClosed" xml:space="preserve">
+    <value>Koevert gesluit</value>
+  </data>
+  <data name="Icon.EnvelopeOpen" xml:space="preserve">
+    <value>Koevert oop</value>
+  </data>
+  <data name="Icon.Euro" xml:space="preserve">
+    <value>Euro</value>
+  </data>
+  <data name="Icon.Excerpt" xml:space="preserve">
+    <value>Uittreksel</value>
+  </data>
+  <data name="Icon.ExpandDown" xml:space="preserve">
+    <value>Brei af</value>
+  </data>
+  <data name="Icon.ExpandLeft" xml:space="preserve">
+    <value>Brei links uit</value>
+  </data>
+  <data name="Icon.ExpandRight" xml:space="preserve">
+    <value>Brei regs uit</value>
+  </data>
+  <data name="Icon.ExpandUp" xml:space="preserve">
+    <value>Brei uit</value>
+  </data>
+  <data name="Icon.ExternalLink" xml:space="preserve">
+    <value>Eksterne skakel</value>
+  </data>
+  <data name="Icon.Eye" xml:space="preserve">
+    <value>Oog</value>
+  </data>
+  <data name="Icon.Eyedropper" xml:space="preserve">
+    <value>Oogdrupper</value>
+  </data>
+  <data name="Icon.File" xml:space="preserve">
+    <value>Lêer</value>
+  </data>
+  <data name="Icon.Fire" xml:space="preserve">
+    <value>Vuur</value>
+  </data>
+  <data name="Icon.Flag" xml:space="preserve">
+    <value>Vlag</value>
+  </data>
+  <data name="Icon.Flash" xml:space="preserve">
+    <value>Flits</value>
+  </data>
+  <data name="Icon.Folder" xml:space="preserve">
+    <value>Vouer</value>
+  </data>
+  <data name="Icon.Fork" xml:space="preserve">
+    <value>Vurk</value>
+  </data>
+  <data name="Icon.FullscreenEnter" xml:space="preserve">
+    <value>Volskerm Invoer</value>
+  </data>
+  <data name="Icon.FullscreenExit" xml:space="preserve">
+    <value>Volskerm afsluiting</value>
+  </data>
+  <data name="Icon.Globe" xml:space="preserve">
+    <value>Wêreld</value>
+  </data>
+  <data name="Icon.Graph" xml:space="preserve">
+    <value>Grafiek</value>
+  </data>
+  <data name="Icon.GridFourUp" xml:space="preserve">
+    <value>Rooster vier op</value>
+  </data>
+  <data name="Icon.GridThreeUp" xml:space="preserve">
+    <value>Rooster drie op</value>
+  </data>
+  <data name="Icon.GridTwoUp" xml:space="preserve">
+    <value>Rooster twee op</value>
+  </data>
+  <data name="Icon.HardDrive" xml:space="preserve">
+    <value>Hardeskyf</value>
+  </data>
+  <data name="Icon.Header" xml:space="preserve">
+    <value>Kopskrif</value>
+  </data>
+  <data name="Icon.Headphones" xml:space="preserve">
+    <value>Oorfone</value>
+  </data>
+  <data name="Icon.Heart" xml:space="preserve">
+    <value>Hart</value>
+  </data>
+  <data name="Icon.Home" xml:space="preserve">
+    <value>Huis</value>
+  </data>
+  <data name="Icon.Image" xml:space="preserve">
+    <value>Beeld</value>
+  </data>
+  <data name="Icon.Inbox" xml:space="preserve">
+    <value>Inkassie</value>
+  </data>
+  <data name="Icon.Infinity" xml:space="preserve">
+    <value>Oneindigheid</value>
+  </data>
+  <data name="Icon.Info" xml:space="preserve">
+    <value>Inligting</value>
+  </data>
+  <data name="Icon.Italic" xml:space="preserve">
+    <value>Kursief</value>
+  </data>
+  <data name="Icon.JustifyCenter" xml:space="preserve">
+    <value>Regverdig sentrum</value>
+  </data>
+  <data name="Icon.JustifyLeft" xml:space="preserve">
+    <value>Regverdig links</value>
+  </data>
+  <data name="Icon.JustifyRight" xml:space="preserve">
+    <value>Regverdig reg</value>
+  </data>
+  <data name="Icon.Key" xml:space="preserve">
+    <value>Sleutel</value>
+  </data>
+  <data name="Icon.Laptop" xml:space="preserve">
+    <value>Skootrekenaar</value>
+  </data>
+  <data name="Icon.Layers" xml:space="preserve">
+    <value>Lae</value>
+  </data>
+  <data name="Icon.Lightbulb" xml:space="preserve">
+    <value>Gloeilamp</value>
+  </data>
+  <data name="Icon.LinkBroken" xml:space="preserve">
+    <value>Skakel gebreek</value>
+  </data>
+  <data name="Icon.LinkIntact" xml:space="preserve">
+    <value>Skakel ongeskonde</value>
+  </data>
+  <data name="Icon.ListRich" xml:space="preserve">
+    <value>Lys ryk</value>
+  </data>
+  <data name="Icon.List" xml:space="preserve">
+    <value>Lys</value>
+  </data>
+  <data name="Icon.Location" xml:space="preserve">
+    <value>Ligging</value>
+  </data>
+  <data name="Icon.LockLocked" xml:space="preserve">
+    <value>Sluit gesluit</value>
+  </data>
+  <data name="Icon.LockUnlocked" xml:space="preserve">
+    <value>Sluit ontsluit</value>
+  </data>
+  <data name="Icon.LoopCircular" xml:space="preserve">
+    <value>Lus sirkel</value>
+  </data>
+  <data name="Icon.LoopSquare" xml:space="preserve">
+    <value>Lus vierkant</value>
+  </data>
+  <data name="Icon.Loop" xml:space="preserve">
+    <value>Lus</value>
+  </data>
+  <data name="Icon.MagnifyingGlass" xml:space="preserve">
+    <value>Vergrootglas</value>
+  </data>
+  <data name="Icon.MapMarker" xml:space="preserve">
+    <value>Kaart Merker</value>
+  </data>
+  <data name="Icon.Map" xml:space="preserve">
+    <value>Kaart</value>
+  </data>
+  <data name="Icon.MediaPause" xml:space="preserve">
+    <value>Media wag</value>
+  </data>
+  <data name="Icon.MediaPlay" xml:space="preserve">
+    <value>Media speel</value>
+  </data>
+  <data name="Icon.MediaRecord" xml:space="preserve">
+    <value>Media rekord</value>
+  </data>
+  <data name="Icon.MediaSkipBackward" xml:space="preserve">
+    <value>Media spring agteruit</value>
+  </data>
+  <data name="Icon.MediaSkipForward" xml:space="preserve">
+    <value>Media slaan vorentoe</value>
+  </data>
+  <data name="Icon.MediaStepBackward" xml:space="preserve">
+    <value>Media stap agteruit</value>
+  </data>
+  <data name="Icon.MediaStepForward" xml:space="preserve">
+    <value>Media stap vorentoe</value>
+  </data>
+  <data name="Icon.MediaStop" xml:space="preserve">
+    <value>Media Stop</value>
+  </data>
+  <data name="Icon.MedicalCross" xml:space="preserve">
+    <value>Mediese Kruis</value>
+  </data>
+  <data name="Icon.Menu" xml:space="preserve">
+    <value>Kieslys</value>
+  </data>
+  <data name="Icon.Microphone" xml:space="preserve">
+    <value>Mikrofoon</value>
+  </data>
+  <data name="Icon.Minus" xml:space="preserve">
+    <value>minus</value>
+  </data>
+  <data name="Icon.Monitor" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="Icon.Moon" xml:space="preserve">
+    <value>Maan</value>
+  </data>
+  <data name="Icon.Move" xml:space="preserve">
+    <value>Skuif</value>
+  </data>
+  <data name="Icon.MusicalNote" xml:space="preserve">
+    <value>Musikale noot</value>
+  </data>
+  <data name="Icon.Paperclip" xml:space="preserve">
+    <value>Skuifspeld</value>
+  </data>
+  <data name="Icon.Pencil" xml:space="preserve">
+    <value>Potlood</value>
+  </data>
+  <data name="Icon.People" xml:space="preserve">
+    <value>Mense</value>
+  </data>
+  <data name="Icon.Person" xml:space="preserve">
+    <value>Persoon</value>
+  </data>
+  <data name="Icon.Phone" xml:space="preserve">
+    <value>Foon</value>
+  </data>
+  <data name="Icon.PieChart" xml:space="preserve">
+    <value>Sirkelgrafiek</value>
+  </data>
+  <data name="Icon.Pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="Icon.PlayCircle" xml:space="preserve">
+    <value>Speel Sirkel</value>
+  </data>
+  <data name="Icon.Plus" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="Icon.PowerStandby" xml:space="preserve">
+    <value>Krag bystand</value>
+  </data>
+  <data name="Icon.Print" xml:space="preserve">
+    <value>Druk</value>
+  </data>
+  <data name="Icon.Project" xml:space="preserve">
+    <value>Projek</value>
+  </data>
+  <data name="Icon.Pulse" xml:space="preserve">
+    <value>Pols</value>
+  </data>
+  <data name="Icon.PuzzlePiece" xml:space="preserve">
+    <value>Legkaartstuk</value>
+  </data>
+  <data name="Icon.QuestionMark" xml:space="preserve">
+    <value>Vraagteken</value>
+  </data>
+  <data name="Icon.Rain" xml:space="preserve">
+    <value>Reën</value>
+  </data>
+  <data name="Icon.Random" xml:space="preserve">
+    <value>Ewekansige</value>
+  </data>
+  <data name="Icon.Reload" xml:space="preserve">
+    <value>Herlaai</value>
+  </data>
+  <data name="Icon.ResizeBoth" xml:space="preserve">
+    <value>Verander die grootte van albei</value>
+  </data>
+  <data name="Icon.ResizeHeight" xml:space="preserve">
+    <value>Verander grootte Hoogte</value>
+  </data>
+  <data name="Icon.ResizeWidth" xml:space="preserve">
+    <value>Verander grootte wydte</value>
+  </data>
+  <data name="Icon.RssAlt" xml:space="preserve">
+    <value>Rss Alt</value>
+  </data>
+  <data name="Icon.Rss" xml:space="preserve">
+    <value>Rss</value>
+  </data>
+  <data name="Icon.Script" xml:space="preserve">
+    <value>Skrip</value>
+  </data>
+  <data name="Icon.ShareBoxed" xml:space="preserve">
+    <value>Deel boks</value>
+  </data>
+  <data name="Icon.Share" xml:space="preserve">
+    <value>Deel</value>
+  </data>
+  <data name="Icon.Shield" xml:space="preserve">
+    <value>Skild</value>
+  </data>
+  <data name="Icon.Signal" xml:space="preserve">
+    <value>Sein</value>
+  </data>
+  <data name="Icon.Signpost" xml:space="preserve">
+    <value>Wegwyser</value>
+  </data>
+  <data name="Icon.SortAscending" xml:space="preserve">
+    <value>Sorteer stygend</value>
+  </data>
+  <data name="Icon.SortDescending" xml:space="preserve">
+    <value>Sorteer dalende</value>
+  </data>
+  <data name="Icon.Spreadsheet" xml:space="preserve">
+    <value>Sigblad</value>
+  </data>
+  <data name="Icon.Star" xml:space="preserve">
+    <value>Ster</value>
+  </data>
+  <data name="Icon.Sun" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="Icon.Tablet" xml:space="preserve">
+    <value>Tablet</value>
+  </data>
+  <data name="Icon.Tag" xml:space="preserve">
+    <value>Merker</value>
+  </data>
+  <data name="Icon.Tags" xml:space="preserve">
+    <value>Merkers</value>
+  </data>
+  <data name="Icon.Target" xml:space="preserve">
+    <value>Teiken</value>
+  </data>
+  <data name="Icon.Task" xml:space="preserve">
+    <value>Taak</value>
+  </data>
+  <data name="Icon.Terminal" xml:space="preserve">
+    <value>Terminale</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>Teks</value>
+  </data>
+  <data name="Icon.ThumbDown" xml:space="preserve">
+    <value>Duim af</value>
+  </data>
+  <data name="Icon.ThumbUp" xml:space="preserve">
+    <value>Duim op</value>
+  </data>
+  <data name="Icon.Timer" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Icon.Transfer" xml:space="preserve">
+    <value>Oordrag</value>
+  </data>
+  <data name="Icon.Trash" xml:space="preserve">
+    <value>Asblik</value>
+  </data>
+  <data name="Icon.Underline" xml:space="preserve">
+    <value>Onderlyn</value>
+  </data>
+  <data name="Icon.VerticalAlignBottom" xml:space="preserve">
+    <value>Vertikale belyn onderkant</value>
+  </data>
+  <data name="Icon.VerticalAlignCenter" xml:space="preserve">
+    <value>Vertikale belyning sentrum</value>
+  </data>
+  <data name="Icon.VerticalAlignTop" xml:space="preserve">
+    <value>Vertikale belyn bokant</value>
+  </data>
+  <data name="Icon.Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Icon.VolumeHigh" xml:space="preserve">
+    <value>Volume hoog</value>
+  </data>
+  <data name="Icon.VolumeLow" xml:space="preserve">
+    <value>Volume laag</value>
+  </data>
+  <data name="Icon.VolumeOff" xml:space="preserve">
+    <value>Volume af</value>
+  </data>
+  <data name="Icon.Warning" xml:space="preserve">
+    <value>Waarskuwing</value>
+  </data>
+  <data name="Icon.Wifi" xml:space="preserve">
+    <value>Wifi</value>
+  </data>
+  <data name="Icon.Wrench" xml:space="preserve">
+    <value>Moersleutel</value>
+  </data>
+  <data name="Icon.X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Icon.Yen" xml:space="preserve">
+    <value>Jen</value>
+  </data>
+  <data name="Icon.ZoomIn" xml:space="preserve">
+    <value>Zoem in</value>
+  </data>
+  <data name="Icon.ZoomOut" xml:space="preserve">
+    <value>Zoem uit</value>
+  </data>
+</root>
