@@ -36,9 +36,9 @@ Developed with assistance from Grok, built by Spot & xAI.
 3. **Configure the Application**:
    - Open `Program.cs` and update:
      - Azure Translator credentials (`translatorKey`, `translatorEndpoint`, `translatorRegion`).
-     - `sourceResourcesPath`: Path to your Oqtane.Client/Resources folder (e.g., D:\SpotSettlements\Web\Modules\Languages\ResourceBase\Resources).
-     - `outputBasePath`: Path for output folders (e.g., D:\SpotSettlements\Web\Modules\Languages\ResourceOutput).
-     - `_languages`: Customize the languages dictionary if needed (defaults to all 11, but skips en-ZA).
+     - `sourceResourcesPath`: Path to your Oqtane.Client/Resources folder (e.g., D:\Temp\Oqtane\Modules\Languages\ResourceBase\Resources).
+     - `outputBasePath`: Path for output folders (e.g., D:\Temp\Oqtane\Modules\Languages\ResourceOutput).
+     - `_languages`: Customize the languages dictionary if needed (defaults to all 11, but skips en-ZA). You can add any of the translation supported Language Codes.
      - `oqtaneVersion`: Set to your Oqtane version (e.g., "6.1.3").
 
 ## Usage
@@ -49,7 +49,7 @@ Developed with assistance from Grok, built by Spot & xAI.
    - This:
      - Translates resources.
      - Generates output folders (e.g., Oqtane.Translations.af-ZA) with translated .resx files in Oqtane.Client/Resources subfolder.
-     - Creates .csproj, .sln, README.md, and sets up for NuGet generation on build.
+     - Automatically Creates .csproj, .sln, README.md, and sets up for NuGet package generation on build.
 
 2. **Validate and Edit Translations**:
    - Open the .sln file in Visual Studio (e.g., Oqtane.Translations.af-ZA/LanguagePack.sln).
