@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Oqtane.Translation.tnZA</id>
+    <version>6.1.3</version>
+    <authors>Spot</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/oqtane/oqtane.framework</projectUrl>
+    <description>Language resources for Oqtane Framework (tn-ZA)</description>
+    <copyright>Spot</copyright>
+    <tags>oqtane language pack</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\SpotSettlements\Web\Modules\Languages\ResourceOutput\Oqtane.Translations.tn-ZA\bin\Release\net9.0\tn-ZA\Oqtane.Translation.tn-ZA.resources.dll" target="lib\net9.0\tn-ZA\Oqtane.Translation.tn-ZA.resources.dll" />
+    <file src="D:\SpotSettlements\Web\Modules\Languages\ResourceOutput\Oqtane.Translations.tn-ZA\bin\Release\net9.0\Oqtane.Translation.tn-ZA.dll" target="lib\net9.0\Oqtane.Translation.tn-ZA.dll" />
+    <file src="D:\SpotSettlements\Web\Modules\Languages\ResourceOutput\Oqtane.Translations.tn-ZA\README.md" target="README.md" />
+  </files>
+</package>
